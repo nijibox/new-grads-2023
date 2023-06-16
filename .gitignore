@@ -1,5 +1,4 @@
-# ビルド成果物をgit管理から除外する
-/dist
+
 
 
 # Created by https://www.gitignore.io/api/node,webstorm,firebase
