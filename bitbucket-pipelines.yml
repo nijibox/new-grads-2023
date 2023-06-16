@@ -1,0 +1,16 @@
+image: node:12-alpine
+
+definitions:
+  caches:
+    docs-node-modules: docs/node_modules
+
+pipelines:
+  default:
+    - step:
+        name: textlint
+        caches:
+          - docs-node-modules
+        script:
+          - apk add --no-cache git
+          - yarn --cwd docs
+          - yarn --cwd docs textlint '*.md' '*/*.md'
