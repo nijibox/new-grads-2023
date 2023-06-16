@@ -1,0 +1,97 @@
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>CHIDAKA KOKI ホームページ</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="./assets/css/reset.css" />
+<link rel="stylesheet"  href="mykadai.css">
+
+</head>
+
+
+<header id="header">
+  <h1>CHIDAKA
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;KOKI</br>
+</h1>
+<img class="profileFigure" alt="" src="eatingcake.PNG" >
+<nav class="header-nav">
+<ul>
+  <li><a href="#container">HISTORY</a></li>
+  <li><a href="#middle">LOCAL</a></li>
+  <li><a href="#third">LIKES</a></li>
+  <li><a href="#production">PRODUCT</a></li>
+  <li><a href="#blog">WORKS</a></li>
+ </ul>
+</nav>
+</header>
+<body>
+<div id="container">
+<h2>HISTORY</h2>
+<p class="basicinformation">
+<br>1998.12.5 札幌市豊平区西岡に爆誕</br>
+<br>2005.4　　西岡南小学校に入学</br>
+<br>2011.4　　札幌市立西岡中学校に入学</br>
+<br>2014.4　　北海道立札幌月寒高等学校に入学</br>
+<br>2017.3　　浪人確定☆</br>
+<br>2017.4　　浪人生として河合塾に通う</br>
+<br>2018.3　　2浪目確定☆</br>
+<br>2018.4　　宅浪を選択し、1年の9割を自宅で過ごす</br>
+<br>2019.3　　タリーズコーヒーでアルバイトを始める</br>
+<br>2019.4　　北星学園大学に入学</br>
+<br>2023.3　　アルバイト以外の思い出が見当たらないまま大学卒業</br>
+<br>2023.4　　ニジボックス入社</br>
+</p> 
+<img class="ppp" alt="" src="oityandakko.JPG" >
+<img class="rrr" alt="" src="gutspause.PNG" >
+<img class="ooo" alt="" src="tullys.JPG" >
+</div> 
+<div id="middle">
+<h3>LOCAL</h3>
+<p class="middleinfo">
+「札幌出身」は自己紹介するうえで最強のカード。ということで、地元について紹介していきます！</br>
+<br>札幌の冬の風物詩と言えば、、雪まつり。コロナの影響もあり中止が続いていましたが去年は久々に開催されてました！</br>
+<br>地元、「西岡」の冬の風物詩も負けていません！自宅の目の前にある町内会館。毎年イルミネーションが施されており、クオリティーの低さに驚きと落ち着きを感じます！</br>
+<br>地元、西岡はタカアンドトシの出身地！とにかく坂が多いのが特徴です！坂道系アイドルが好きなのは坂の多い街に
+住んでいたからだと思うんですよね、、。</br>
+<br>以上、地元の紹介でした！札幌に来るならやはり冬がオススメです！西岡は特になにもないですが、自然を感じたい人にはオススメなので、ぜひ立ち寄ってください！</br>
+</p>
+<img class="yyy" alt="" src="yukimaturi.JPG" >
+<img class="aaa" alt="" src="nishiokairumi.JPG" >
+<img class="bbb" alt="" src="nishiokasaka.JPG" >
+</div>
+<div id="third">
+<h4>LIKES</h4>
+<p class="thirdinfo">
+「KAWAZOE INN」
+<br></br>
+<br>高校の同級生2人と作ったブランド。<川沿という地域に住んでいる友達の家に入り浸っていた時、友達が、「東横インじゃねんだよ！！」と発した一言から産声をあげた、、！</br>
+<br>最近はなかなか作れていませんが、以前は、ロンTやトレーナー、ステッカーを作成し、友達に売ることもありました！自分自身もロンTやトレーナーは普段着、ステッカーは、スーツケースに貼っています！</br>
+<br>自分が朝起きたらまずやること、そう、それは、「クラッシュロワイヤル」。そこにもKWAZOE INNは使われており、友達と組んでいる、クラン名もKWAZOE INN。</br>
+<br>自分にとっては欠かすことの出来ない、ただのブランドではない、特別なブランドです。</br>
+</p>
+<img class="ccc" alt="" src="kawazoein.JPG" >
+<img class="ddd" alt="" src="kawazoeinnront.JPG" >
+<img class="eee" alt="" src="clarowa.PNG" >
+</div>
+<div id="production">
+<h5>PRODUCT</h5>
+<img class="ttt" alt="" src="tsundere.jpg" >
+<p class="word">仕事を始めるとき、カレンダーを開かずに予定を知りたいと思ったことありませんか？
+<br>また、ツンデレワードで１日の始まりを応援して欲しいと思いませんか？</br>
+<br>そんな願いを叶えてくれる「ツンデレ予定bot」をエンジニア研修で作成しました！</br>
+<br>魅惑的なツンデレワードを詳しく知りたい方はこちらまで！</br>
+<br>↓</br>
+</p>
+<p class="product"><a href="https://nijibox.slack.com/archives/C059G1H6J4F">#times_chidaka</a>へ</P>
+</p>
+</div>
+<div id="works">
+<h6>WORKS</h6>
+<iframe src="https://cocorou-my.sharepoint.com/personal/kouki_chidaka_waku-2_com/_layouts/15/Doc.aspx?sourcedoc={de4b4e2e-a20b-4956-affc-0c92e399d82e}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">これは、<a target="_blank" href="https://office.com/webapps">Office</a> の機能を利用した、<a target="_blank" href="https://office.com">Microsoft Office</a> の埋め込み型のプレゼンテーションです。</iframe>
+<div>
+</body>
+<footer>
+<a href="#" id="page-top">TOP</a>
+©2023 CHIDAKA KOKI
+</footer>
+</html>

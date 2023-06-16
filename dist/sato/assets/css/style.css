@@ -1,0 +1,790 @@
+*{
+margin:0;
+padding:0;
+
+}
+
+body{
+margin:0;
+}
+
+
+
+/*グロナビ*/
+
+
+a {
+  color:#EC733F;
+  text-decoration: none;
+}
+
+
+header{
+background: #FFFFFF;
+display:flex;
+align-items:center;
+justify-content:center;
+padding: 12px 24px;
+border-color:#000000;
+border-style: solid;
+border-width:1.2px;
+position:fixed;
+width:100vw;
+height:60px;
+margin:0;
+z-index:100;
+
+}
+
+
+
+ul{
+font-family:rockwell;
+display:flex;
+align-items:center;
+gap:40px;
+list-style: none;
+color:#EC733F;
+font-size: 20px;
+margin:0;
+padding:0;
+}
+
+
+li:hover{
+
+transition:0.1s;
+opacity:0.5;
+}
+
+.times{
+
+margin-left:40px;
+width:173px;
+height:35px;
+
+}
+.times:hover{
+
+transition:0.1s;
+opacity:0.5;
+}
+
+
+
+
+/*ファーストビュー*/
+
+
+.first1,
+.first2,
+.first3{
+display:flex;
+justify-content: center;
+height:227px;
+}
+
+
+.first_inner{
+width:100%;
+max-width:1980px;
+display: block;
+margin:0 auto;
+position:relative;
+}
+
+.aisatsu{
+position:absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%, -50%);
+}
+
+h5{
+font-size: 250px;
+font-weight: 500;
+color:#FFFFFF;
+height:250px;
+font-family:rockwell;
+
+}
+
+h6{
+font-size:70px;
+font-weight: 200;
+color:#FFFFFF;
+text-align:center;
+height:90px;
+font-family:rockwell;
+margin:15px;
+
+}
+
+
+
+
+/*メッセージページ*/
+
+
+
+
+#message{
+height:700px;
+width:100%;
+padding:90px 0 0 0;
+
+}
+
+.message_inner{
+width:100%;
+max-width:1280px;
+margin:0 auto;
+}
+
+.m1{
+display:flex;
+}
+.messageji{
+font-size: 75px;
+font-weight: 600;
+color:#EC733F;
+margin-left:100px;
+font-family:rockwell;
+
+}
+
+.messagejiji{
+font-size: 35px;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+color:#EC733F;
+padding:50px 0 0 13px;;
+height:85px;
+margin:0;
+}
+
+.m2{
+display:flex;
+}
+
+
+.comment{
+
+text-align:center;
+}
+
+.manan{
+margin:0 0 0 170px;
+}
+
+.mananimg{
+height: 369px;
+width: 277px;
+position:relative;
+}
+.medamapro{
+height:200px;
+width:200px;
+margin:230px 0 0 300px;
+position:absolute;
+
+}
+
+.medamaproimg{
+height:200px;
+width:200px;
+border-radius:50%;
+
+}
+
+.comment{
+position:absolute;
+margin:0 0 0 700px;
+
+}
+
+h1{
+font-size: 35px;
+font-weight: 600;
+padding:0;
+margin:0 0 25px 0;
+font-family:rockwell;
+color:#EC733F;
+}
+h2{
+font-size: 35px;
+font-weight: 600;
+margin:25px 0 0 0;
+font-family:rockwell;
+color:#EC733F;
+}
+.commentp{
+font-size: 20px;
+font-weight: 300;
+margin:5px;
+font-family: 'Sawarabi Gothic', sans-serif;
+color:#EC733F;
+}
+
+
+
+/*what makes meページ*/
+
+#wmm{
+height:790px;
+width:100%;
+background-color:#EC733F;
+position:relative;
+padding-top:70px;
+}
+
+.wmmmi{
+display:flex;
+}
+
+
+.wmmji{
+font-size: 75px;
+margin-left:80px;
+color:#000000;
+
+font-family:rockwell;
+
+
+}
+
+.wmmjiji{
+font-size: 35px;
+padding:40px 0 0 10px;
+color:#000000;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+
+.brain56{
+position:absolute;
+height:346px;
+width:524px;
+top: 50%;
+left: 50%;
+transform:translate(-50%, -50%);
+}
+
+.dislikesbuton{
+margin-left:835px;
+position:relative;
+top:0;
+width:300px;
+}
+.dislikesbuton:hover{
+top:10px;
+transition:0.3s;
+opacity:0.5;
+}
+
+.likesbuton{
+margin-left:230px;
+position:relative;
+top:0;
+width:300px;
+}
+
+.likesbuton:hover{
+top:10px;
+transition:0.3s;
+opacity:0.5;
+}
+
+.historybuton{
+margin:85px 0 0 130px;
+position:relative;
+top:0;
+width:300px;
+}
+
+.historybuton:hover{
+top:10px;
+transition:0.3s;
+opacity:0.5;
+}
+
+
+.worksbuton{
+margin:5px 0 0 885px;
+position:relative;
+top:0;
+width:300px;
+
+}
+.worksbuton:hover{
+top:10px;
+transition:0.3s;
+opacity:0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ライクスページ*/
+
+#likes{
+height:790px;
+padding:90px 0 0 0;
+}
+
+.likesmi{
+display:flex;
+}
+
+
+.likesji{
+font-size: 75px;
+margin-left:100px;
+height:85px;
+color:#EC733F;
+font-family:rockwell;
+
+}
+
+.likesjiji{
+font-size: 35px;
+padding:30px 0 0 10px;
+color:#EC733F;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+
+
+
+
+
+.range1{
+display:flex;
+justify-content:center;
+gap:45px;
+padding:10px 20px 0 20px;
+}
+
+
+
+.likes1-1,
+.likes2-2,
+.likes3-3{
+height: 174px;
+width: 262.6415100097656px;
+}
+h10,
+h11,
+h12{
+font-size: 18px;
+font-weight: 600;
+margin:13px 0 0 0;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.likesetsu1,
+.likesetsu2,
+.likesetsu3{
+font-size: 13px;
+font-weight: 300;
+font-family: 'Sawarabi Gothic', sans-serif;
+margin:15px 0;
+width: 262.6415100097656px;
+line-height:150%;
+}
+
+.range2{
+display:flex;
+justify-content:center;
+gap:45px;
+padding:0 20px 20px 20px;
+}
+
+
+
+.likes4-4,
+.likes5-5,
+.likes6-6{
+height: 174px;
+width: 262.6415100097656px;
+}
+h21,
+h22,
+h23{
+font-size: 18px;
+font-weight: 600;
+margin:10px 0 0 0;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.likesetsu4,
+.likesetsu5,
+.likesetsu6{
+font-size: 13px;
+font-weight: 300;
+font-family: 'Sawarabi Gothic', sans-serif;
+margin:15px 0;
+line-height:150%;
+width: 262.6415100097656px;
+
+}
+
+/*ディスライクページ*/
+#dislikes{
+height:800px;
+padding:90px 0 0 0;
+background-color:#EC733F;
+position:relative;
+}
+
+
+
+.dislikesmi{
+display:flex;
+
+}
+
+.dislikesji{
+font-size: 75px;
+margin-left:100px;
+color:#000;
+height:85px;
+font-family:rockwell;
+}
+
+.dislikesjiji{
+font-size: 35px;
+padding:30px 0 0 10px;
+color:#000;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.dislikes57{
+position:absolute;
+height:435px;
+width:665px;
+top: 50%;
+left: 50%;
+transform:translate(-50%, -50%);
+}
+
+.kirange1{
+display:flex;
+justify-content:space-between;
+width:600px;
+font-size: 25px;
+color:#FFFFFF;
+font-family: 'Sawarabi Gothic', sans-serif;
+margin:200px 0 0 350px;
+
+}
+
+.kirange2{
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:960px;
+font-size: 25px;
+color:#FFFFFF;
+font-family: 'Sawarabi Gothic', sans-serif;
+margin:30px 0 0 240px;
+
+}
+
+.kirange3{
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:1070px;
+font-size: 25px;
+color:#FFFFFF;
+font-family: 'Sawarabi Gothic', sans-serif;
+margin:30px 0 0 120px;
+
+}
+
+
+
+
+/*ヒストリー*/
+
+#history{
+height:790px;
+padding:90px 0 0 0;
+background-color:#FFFFFF;
+}
+
+.historymi{
+display:flex;
+
+}
+
+
+.historyji{
+font-size: 75px;
+margin-left:100px;
+color:#EC733F;
+height:85px;
+font-family:rockwell;
+
+}
+
+.historyjiji{
+font-size: 35px;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+color:#EC733F;
+padding:30px 0 0 10px;
+height:85px;
+}
+
+.hiskou{
+display:flex;
+margin-top:30px;
+}
+
+.nenpyoup{
+width:100px;
+margin-left:90px;
+line-height:20px;
+
+}
+
+.nenp1,
+.nenp2,
+.nenp3,
+.nenp4,
+.nenp5,
+.nenp6{
+display:block;
+font-size: 18px;
+font-weight: 600;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.nenp1,
+.nenp2,
+.nenp3,
+.nenp4,
+.nenp5{
+margin-bottom:68px;
+}
+
+h27,
+h28,
+h29,
+h30,
+h31,
+h32{
+font-size: 18px;
+font-weight: 600;
+font-family: 'Sawarabi Gothic', sans-serif;
+line-height:1em;
+}
+
+
+.hissetsu1,
+.hissetsu2,
+.hissetsu3,
+.hissetsu4,
+.hissetsu5{
+margin-bottom:20px;
+}
+
+
+.hisp1,
+.hisp2,
+.hisp3,
+.hisp4,
+.hisp5,
+.hisp6{
+font-family: 'Sawarabi Gothic', sans-serif;
+font-size: 15px;
+}
+
+
+/*ワークス*/
+
+#works{
+height:790px;
+padding:90px 0 0 0;
+background-color:#EC733F;
+}
+
+.worksmi{
+display:flex;
+
+}
+
+
+.worksji{
+font-size: 75px;
+margin-left:100px;
+color:#000000;
+height:85px;
+font-family:rockwell;
+
+}
+
+.worksjiji{
+font-size: 35px;
+font-family: 'Sawarabi Gothic', sans-serif;
+color:#000000;
+padding:30px 0 0 10px;;
+height:85px;
+
+}
+
+.range3{
+display:flex;
+justify-content:center;
+gap:65px;
+padding-top:60px ;
+}
+
+
+.works1-1,
+.works2-2,
+.works3-3{
+height: 174px;
+width: 262.6415100097656px;
+padding-top:20px ;
+}
+
+h24,
+h25,
+h26{
+font-size: 18px;
+font-weight: 600;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.worksetsu1,
+.worksetsu2,
+.worksetsu3{
+font-size: 15px;
+font-weight: 300;
+margin:17px;
+font-family: 'Sawarabi Gothic', sans-serif;
+height:112px;
+line-height:150%;
+}
+
+.worksetsu1 p,
+.worksetsu2 p,
+.worksetsu3 p{
+line-height:150%;
+}
+
+.linkbotanchan{
+
+margin-left:210px;
+}
+
+
+
+
+/*フッダー*/
+
+footer{
+position:relative;
+background-color:#FFFFFF;
+}
+
+.foot{
+height:269px;
+border-color:#000000;
+border-style: solid;
+border-width:1.2px;
+position:relative;
+}
+
+
+.footbotan{
+position:absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%, -50%);
+font-family:rockwell;
+color:#EC733F;
+font-size:20px;
+}
+
+.timebotanchan{
+margin:auto;
+padding:0;
+}
+
+
+.timebotanchan:hover{
+
+transition:0.1s;
+opacity:0.5;
+}
+
+.saigoni{
+padding:8px;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+.copy{
+height:91px;
+border-color:#000000;
+border-style: solid;
+border-width:1.2px;
+text-align:right;
+font-family:rockwell;
+color:#EC733F;
+font-size:20px;
+}
+
+.copywrite{
+margin:50px 10px 0 0;
+}
+
+
+#page-top {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 90%;
+    font-family:rockwell;
+    line-height: 1.5rem;
+    color: #000000;
+    padding: 0 0 0 35px;
+    border-top: solid 1px;
+    
+}
+
+#page-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 1px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+}

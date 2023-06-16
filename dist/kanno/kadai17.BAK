@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="kadai17.css">
+</head>
+<body>
+<header>
+  <div="head">
+    <h1="profile">
+      <image src="みちびきエンゼル.jpg" >
+    </h1>
+    <nav="globalnavigation">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">MAIL</a></li>
+      </ul>
+    </nav>
+   </div>
+</header>
+</body>
+</html>

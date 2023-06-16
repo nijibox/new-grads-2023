@@ -1,0 +1,130 @@
+
+<!ヘッダー作り><!ヘッダー作り><!ヘッダー作り>
+ @charset "UTF-8";
+html{
+    font-size:100%;/*ユーザー設定の文字サイズを正しく反映*/
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+header{
+    width:100vw;
+    background-color:#d3d3d3;
+    display:flex;
+    justify-content:space-between; /*メニューを右端に置く方法その１*/
+    padding:0 2%;
+    align-items:center;
+}
+ul{
+   list-style: none;
+   margin: 0;
+}
+
+h1{
+font-size:40px;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+nav{
+    margin-left:auto; /*メニューを右端に置く方法その２*/
+}
+/*ホバーした際に色変わる*/
+a:hover{
+    opacity: 0.5;
+}
+/*背景写真の設定*/
+.example img {
+  height: auto;  /* ←縦横比を維持する高さを自動計算 */
+border-radius:50px;
+}
+/*ページ２の横並べ//*ページ２の横並べ//*ページ２の横並べ/
+.inner img {
+border-radius:50px;
+}
+
+/*アコーディオン/*アコーディオン/*アコーディオン
+
+.accordion-002 {
+    max-width: 500px;
+    margin-bottom: 7px;
+    border: 2px solid #2589d0;
+    border-radius: 5px;
+}
+
+.accordion-002 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2028%2028%22%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%2214%22%20style%3D%22fill%3A%232589d0%3B%22%2F%3E%0A%3C%2Fsvg%3E');
+    background-position: right calc(2em - 7px) center;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    color: #2589d0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accordion-002 summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion-002 summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 5px;
+    height: 5px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    content: '';
+    transition: transform .3s;
+}
+
+.accordion-002[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.accordion-002 p {
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: 0 2em 1.5em;
+    color: #333333;
+    transition: transform .5s, opacity .5s;
+}
+
+.accordion-002[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+/*インスタ//*インスタ//*インスタ/
+
+.insta_btn3 {/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 14px;/*角丸に*/
+  position: relative;
+  display: block;
+  height: 120px;/*高さ*/
+  width: 120px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  padding-top: 12px;/*上側との余白*/
+  box-sizing: border-box;
+  font-size: 19px;/*文字のサイズ*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}置*/
+
+
+/slack飛ぶ
+.containerimg{ 
+height: 2px;/*高さ*/
+  width: 2px;/*幅*/
+}

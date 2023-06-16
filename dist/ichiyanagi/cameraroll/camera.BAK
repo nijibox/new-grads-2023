@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ayatyang camera roll</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="camera.css" />
+  </head>
+
+<body>
+    <header class="header">
+      <!-- ヘッダーロゴ -->
+      <div class="logo">LOGO</div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+    
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+        <!-- メニュー -->
+        <form class="content">
+          <div class="list">
+            <button onclick="location.href='#'" class="btn_item">Top</a></button>
+	    <button onclick="location.href='#'" class="btn_item">Profile</a></button>
+	    <button onclick="location.href='#'" class="btn_item">Work</a></button>
+	    <button onclick="location.href='file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/expressiveface/face.html'" class="btn_item">Face's</a></button>
+	    <button onclick="location.href='file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/cameraroll/cameraroll.html?'" class="btn_item">Camera Roll</a></button>
+          </div>
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/D050U4FMU8L">Ayaka Ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id">ayaka.ichiyanagi@nijibox.co.jp</p>
+	  </div>
+	</form>
+      </div
+    </header>
+　　　<!-- メインワード -->
+      <div class="main-img">
+              <h1>Cemara Roll</h1>
+      </div>
+　　　<!-- メイン画像 -->
+<!--
+      <div class="cameraroll">
+	<input type="checkbox" id="pop-up">
+	<label id="popup" for="pop-up" class="overlay">
+ 	  <label class="popWindow">
+   	    <div class="ptitle">
+              <p class="cameraroll-text">贅沢なホワイトアスパラガス</p>
+	    </div>
+            <label class="close" for="pop-up">×</label>
+	      <img class="image" loading="lazy" alt="" src="asupara.jpg" width="500" height="500" /></div>
+
+  	  </label>
+	</label>
+	<div class="c">
+  	  <label for="pop-up">
+           <img class="image" loading="lazy" src="asupara.jpg" alt="" width="160" height="160"  />
+	</label>
+	</div>
+-->
+
+<input type="checkbox" id="pop-up">
+<label id="popup" for="pop-up" class="overlay">
+  <label class="popWindow">
+    <div class="ptitle">のクリスマスツリー</div>
+    <label class="close" for="pop-up">×</label>
+    <img itemprop="image" loading="lazy" src="asupara.jpg" alt="アスパラ"  />
+  </label>
+</label>
+<div class="c">
+  <label for="pop-up">
+    <img itemprop="image" loading="lazy" src="asupara.jpg" alt=""   />
+  </label>
+</div>
+
+
+
+　　　    <!-- フッター -->
+  <footer>
+	  <div class="footer">
+             <p class="footer-word"><a href="#" class="footer-link">Top</a></p>
+             <p class="footer-word"><a href="#" class="footer-link">Profile</a></p>
+             <p class="footer-word"><a href="#" class="footer-link">Work</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/expressiveface/face.html" class="footer-link">Face's</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/cameraroll/camera.html" class="footer-link">Camera Roll</a></p>
+	  </div>
+  </footer>
+
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/D050U4FMU8L">Ayaka Ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id">ayaka.ichiyanagi@nijibox.co.jp</p>
+	  </div>
+
+	  <div class="copyright">
+	    <p class=copyright-word>© 2023 ayaka ichiyanagi</p>
+          </div>
+</body>
+</html>

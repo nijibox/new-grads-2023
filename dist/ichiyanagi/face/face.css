@@ -1,0 +1,273 @@
+body{
+	margin:0;
+}
+.header {
+  margin-top:20px;
+  background: #fff;
+  position: relative;
+  height:35px;
+}
+
+.logo a{
+	font-size: 30px;
+	font-family: serif;
+	padding-left:20px;
+	font-weight:bold;
+	color:black;
+	text-decoration: none;
+
+}
+
+.logo a:hover{
+	opacity:0.5;
+}
+/* ここから下がハンバーガーメニューに関するCSS */
+  
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.drawer_open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top:20px;
+  z-index: 100;/* 重なり順を一番上にする */
+  cursor: pointer;
+}
+/* ハンバーガーメニューのアイコン */
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 36px;
+  border-radius: 3px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+    padding-right: 25px;
+	margin-right:50px;
+}
+
+/* 三本線の一番上の棒の位置調整 */
+.drawer_open span:before {
+  bottom: 8px;
+}
+
+/* 三本線の一番下の棒の位置調整 */
+.drawer_open span:after {
+  top: 8px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer_input:checked ~ .drawer_open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#drawer_input:checked ~ .drawer_open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#drawer_input:checked ~ .drawer_open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}  
+/* メニューのデザイン*/
+.content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 100%;
+  left: 0%; /* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: rgb(255, 255, 255);
+  transition: .5s;
+  text-align: center;
+  padding-top: 20px;
+}
+.btn_item{
+  text-decoration: none;
+   display:block;
+   width:432px;
+   height:70px;
+   padding:10px 0 10px 0;
+   font-family: serif;
+   font-size:23px;
+   text-decoration:none;
+   color:black;
+   border-radius:100px;
+   margin:0 auto;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background:#FFFFFF;
+   border-width:thin;
+}
+.btn_item:hover{
+   opacity:0.5;
+}
+.list{
+   padding-top:50px;
+}
+/* アイコンがクリックされたらメニューを表示 */
+#drawer_input:checked ~ .content {
+  bottom: 0;/* メニューを画面に入れる */
+  
+}
+
+/*slack*/
+.slack_icon1{
+	width:40px;
+}
+.content a{
+	color:black;
+	text-decoration: none;
+}
+.content a:hover{
+	opacity:0.5;
+}
+
+.slack_icon2{
+	width:30px;
+	margin-left:10px;
+}
+.slack_id{
+	margin-left:7px;
+}
+.gmail_icon{
+	width:40px;
+	margin-left:70px;
+	font-family: serif;
+}
+.gmail_id{
+	margin:10px;
+}
+.contact{
+	display:flex;
+        justify-content:center;
+        align-items:center;
+	padding-top:50px;
+}
+/*メインワード*/
+.main-img{
+	height:150px;
+	font-size:50px;
+	font-family: serif;
+	color:black;
+	text-align:center;
+	margin:20px auto;
+}
+/*メイン画像*/
+
+.face-carsol{
+	font-size:25px;
+	font-family: serif;
+	text-align:center;
+}
+
+.faces-wrapper{
+	width:948px;
+	margin:20px auto 0;
+	display:flex;
+        justify-content:center;
+	gap:24px;
+	flex-wrap:wrap;
+}
+
+.face-img{
+	width:300px;
+	height:300px;
+}
+
+.face{
+	position:relative;
+}
+
+.face-text{
+	margin:0;
+	position:absolute;
+	top:0;
+	color: #fff;
+	font-family: serif;
+	font-size:36px;
+	background: rgba(0, 0, 0, .5); /* マスクの色(黒の50%) */
+	opacity: 0;
+	width: 300px;
+	height: 300px;
+	display: flex; /* テキストの中央揃え */
+  	justify-content: center; /* テキストの中央揃え */
+  	align-items: center; /* テキストの中央揃え */
+}
+
+.face:hover .face-text{ 
+  opacity: 1; /* hoverしたら透過しない(表示させる) */
+}
+/*フッター*/
+.footer{
+	font-family: serif;
+  	font-size:23px;
+	border-top: solid 1px #555555;
+	margin:100px auto 0 auto;
+	width:70%;
+	text-align:center;
+}
+.footer p{
+	margin:10px;
+	text-align:left;
+	display:inline-block;
+}
+.footer a{
+	color:black;
+	text-decoration: none;
+}
+.footer a:hover{
+	opacity:0.5;
+}
+
+/*slack*/
+.slack_icon1{
+	width:40px;
+}
+.contact a{
+	color:black;
+	text-decoration: none;
+}
+.contact a:hover{
+	opacity:0.5;
+}
+.slack_icon2{
+	width:30px;
+	margin-left:10px;
+}
+.slack_id{
+	margin-left:7px;
+}
+/*gmail*/
+.gmail_icon{
+	width:40px;
+	margin-left:70px;
+	font-family: serif;
+}
+.gmail_id{
+	margin:10px;
+}
+.contact{
+	display:flex;
+        justify-content:center;
+        align-items:center;
+	padding-top:50px;
+}
+
+/*コピーライト*/
+.copyright{
+	text-align:center;
+	margin:30px auto 80px auto;
+	padding-bottom:100px;
+}

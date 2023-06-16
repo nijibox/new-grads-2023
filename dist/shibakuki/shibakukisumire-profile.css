@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: 'Noto Sans JP', sans-serif;
+  background:#f6f5f4;
+}
+header {
+  width: 100%;
+  height: 40px;
+  background:#f6f5f4;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  z-index:100;
+}
+h1 a {
+  color: #1a1a1a;
+  font-size: 30px;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li a {
+  padding: 10px 15px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.top{
+position: relative;
+}
+
+
+.topimage{
+  width: 100%;
+  }
+
+.profile{
+  display:flex;
+  width:1050px;
+  height:502px;
+  background:#ffffff;
+  position: relative;
+  margin:200px auto 200px auto;
+  
+}
+
+.profiletext{
+  font-size:20px;
+  position: absolute;
+  top: 40%;
+  left:35%;
+  transform: translate(-50%, -50%);
+  
+}
+
+ .kero{
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+h2{
+  background:#ffffff;
+  width:215px;
+  height:65px;
+  margin:200px auto 0 auto;
+  
+ }
+
+.name{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+body {
+font-family: 'Yu Gothic UI','メイリオ';
+}
+
+
+.contact{
+  background: #fff;
+  border: 2px solid #373737;
+  padding: 50px;
+  line-height: 1.8rem;
+  width:561px;
+  text-align: center;
+  margin:150px auto 0px auto;
+}
+
+.copyright{
+text-align: center;
+
+}
+
+
+

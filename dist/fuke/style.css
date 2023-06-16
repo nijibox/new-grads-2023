@@ -1,0 +1,489 @@
+body{
+margin: 0 auto;}
+
+ul.gnav-navi-1{
+background:#FF9900 ;
+margin: 0 auto;
+text-align: right;
+}
+ul.gnav-navi-1 li{
+display: inline-block;
+}
+
+
+ul.gnav-navi-1 li a{
+display: block;
+padding: 1em;
+color: black;
+text-decoration: none;
+}
+ul.gnav-navi-1 a::first-line{
+font-size: 16px;
+font-weight: bold;
+}
+ul.gnav-navi-1 li:hover{
+background: #66FFFF;
+}
+
+
+/*aboutme*/
+.card-container{
+    display:flex;
+    /*max-width: 750px;
+    height: 200px;*/
+margin: 100px 100px 100px 100px;
+}
+.card-container a{
+    text-decoration: none;
+    color:#66FFFF ;
+font-family: 'Luckiest Guy';
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:   0px -6px 0 #212121,  
+                 0px -6px 0 #212121,
+                 0px  6px 0 #212121,
+                 0px  6px 0 #212121,
+                -6px  0px 0 #212121,  
+                 6px  0px 0 #212121,
+                -6px  0px 0 #212121,
+                 6px  0px 0 #212121,
+                -6px -6px 0 #212121,  
+                 6px -6px 0 #212121,
+                -6px  6px 0 #212121,
+                 6px  6px 0 #212121,
+                -6px  18px 0 #212121,
+                 0px  18px 0 #212121,
+                 6px  18px 0 #212121,
+                 0 19px 1px rgba(0,0,0,.1),
+                 0 0 6px rgba(0,0,0,.1),
+                 0 6px 3px rgba(0,0,0,.3),
+                 0 12px 6px rgba(0,0,0,.2),
+                 0 18px 18px rgba(0,0,0,.25),
+                 0 24px 24px rgba(0,0,0,.2),
+                 0 36px 36px rgba(0,0,0,.15);
+font-size:50px;
+}
+.card-img img{
+    width:600px;
+    height:750px;
+padding-top:90px;
+}
+
+.card-text{
+    width:600px;
+height:300px;
+    margin-top: 0px;
+margin-left: 100px;
+font-size:24px;
+}
+h2{
+margin-right:100px;
+}
+
+
+#experience {
+text-align: center;
+text-decoration: none;
+    color:#66FFFF ;
+font-family: 'Luckiest Guy';
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:   0px -6px 0 #212121,  
+                 0px -6px 0 #212121,
+                 0px  6px 0 #212121,
+                 0px  6px 0 #212121,
+                -6px  0px 0 #212121,  
+                 6px  0px 0 #212121,
+                -6px  0px 0 #212121,
+                 6px  0px 0 #212121,
+                -6px -6px 0 #212121,  
+                 6px -6px 0 #212121,
+                -6px  6px 0 #212121,
+                 6px  6px 0 #212121,
+                -6px  18px 0 #212121,
+                 0px  18px 0 #212121,
+                 6px  18px 0 #212121,
+                 0 19px 1px rgba(0,0,0,.1),
+                 0 0 6px rgba(0,0,0,.1),
+                 0 6px 3px rgba(0,0,0,.3),
+                 0 12px 6px rgba(0,0,0,.2),
+                 0 18px 18px rgba(0,0,0,.25),
+                 0 24px 24px rgba(0,0,0,.2),
+                 0 36px 36px rgba(0,0,0,.15);
+font-size:50px;
+}
+
+#experience .tittle{
+margin-top:300px;
+margin-left:100px;
+}
+
+#experience ul{
+ display: flex;                  
+  justify-content: space-between;                  
+  margin-top: 100px;
+margin-bottom: 50px;
+margin-right:60px;
+}
+
+#experience li {
+  width: 40%;
+  margin-bottom: 23px;
+ opacity:1;
+ transition: .3s;
+ transition: 1s ;
+  transform: rotateX( 0deg ) ;
+}
+#experience li:hover{
+opacity: 0.3;
+ transition: 1s ;
+  transform: rotateX( 360deg );}
+
+#shodou {
+  display: flex;
+  margin-bottom: 120px;
+margin-top:300px;
+margin-left:50px;}
+
+#shodou shodouimg {
+  width: 40%
+height:400px;
+
+}
+
+#shodou .text {
+  width: 45%;
+  padding: 10px 5% 0 7%;
+font-size:33px;
+}
+#shodou .en{
+color:black;
+}
+#shodou ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#shodou2 ul{
+list-style-type: none;
+font-size:30px;
+border: 10px orange dashed; 
+width:800px;
+margin-top:50px;
+margin-bottom:50px;
+text-align: center;
+margin-left:200px;
+}
+
+#shodou2 ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#shodou2 .triangle{
+   display: inline-block;
+  border-style: solid;
+  border-width: 48px 28px 0 28px;
+  border-color:orange transparent transparent transparent;
+margin-left:590px;
+}
+
+
+#tennis {
+  display: flex;
+  margin: 300px 0 120px 50px;
+}
+#tennis tennisimg{
+  width: 50%
+height:400px;
+padding-left:20px;
+}
+
+#tennis .text {
+  width: 45%;
+  padding: 0 3% 0 6%;
+font-size:33px;
+}
+#tennis .en{
+color:black;
+}
+#tennis ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#tennis2 ul{
+list-style-type: none;
+font-size:30px;
+border: 10px orange dashed; 
+width:800px;
+margin-top:50px;
+margin-bottom:50px;
+text-align: center;
+margin-left:200px;
+}
+
+#tennis2 ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#tennis2 .triangle{
+   display: inline-block;
+  border-style: solid;
+  border-width: 48px 28px 0 28px;
+  border-color:orange transparent transparent transparent;
+margin-left:590px;
+}
+
+#nijibox {
+  display: flex;
+  margin:300px 0 120px 50px;
+}
+
+#nijibox nijiboximg{
+  width: 50%
+height:400px;
+padding-left:20px;
+}
+
+#nijibox .text {
+  width: 45%;
+  padding: 0 3% 0 7%;
+font-size:30px;
+}
+#nijibox .en{
+color:black;
+}
+
+#nijibox li{
+color:orange;
+}
+
+#nijibox li:hover{
+color:#FFCC99	;
+}
+
+#nijibox ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#nijibox2{
+margin-top:300px;
+}
+#nijibox2 .en{
+color:black;
+margin-left:100px;
+font-size:40px;
+background-color:orange;
+}
+
+#nijibox2 ul{
+list-style-type: none;
+font-size:30px;
+border: 10px orange dashed; 
+width:800px;
+margin-top:50px;
+margin-bottom:50px;
+text-align: center;
+margin-left:200px;
+}
+
+#nijibox2 ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#nijibox2 .triangle{
+   display: inline-block;
+  border-style: solid;
+  border-width: 48px 28px 0 28px;
+  border-color:orange transparent transparent transparent;
+margin-left:590px;
+}
+#nijibox2 .text2 li:nth-child(1){
+color:red;
+}
+
+#nijibox3{
+margin-top:300px;
+}
+#nijibox3 .en{
+color:black;
+margin-left:100px;
+font-size:40px;
+background-color:orange;
+}
+
+#nijibox3 ul{
+list-style-type: none;
+font-size:30px;
+border: 10px orange dashed; 
+width:800px;
+margin-top:50px;
+margin-bottom:50px;
+text-align: center;
+margin-left:200px;
+}
+#nijibox3 ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+#nijibox3 .text2 li:nth-child(3){
+color:red;
+}
+#nijibox3 .triangle{
+   display: inline-block;
+  border-style: solid;
+  border-width: 48px 28px 0 28px;
+  border-color:orange transparent transparent transparent;
+margin-left:590px;
+}
+
+#nijibox4{
+margin-top:300px;
+}
+#nijibox4 .en{
+color:black;
+margin-left:100px;
+font-size:40px;
+background-color:orange;
+}
+
+#nijibox4 ul{
+list-style-type: none;
+font-size:30px;
+border: 10px orange dashed; 
+width:800px;
+margin-top:50px;
+margin-bottom:50px;
+text-align: center;
+margin-left:200px;
+}
+#nijibox4 ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+
+#nijibox4 .triangle{
+   display: inline-block;
+  border-style: solid;
+  border-width: 48px 28px 0 28px;
+  border-color:orange transparent transparent transparent;
+margin-left:590px;
+}
+#nijibox4 .text2 li:nth-child(2){
+color:red;
+}
+#nijibox5{
+margin-top:300px;
+}
+#nijibox5 .en{
+color:black;
+margin-left:100px;
+font-size:40px;
+background-color:orange;
+}
+
+#nijibox5 ul{
+list-style-type: none;
+font-size:30px;
+border: 10px orange dashed; 
+width:800px;
+margin-top:50px;
+margin-bottom:50px;
+text-align: center;
+margin-left:200px;
+}
+
+#nijibox5 ul li{
+padding-top: 13px;
+        padding-bottom: 13px;
+}
+#nijibox5 .triangle{
+   display: inline-block;
+  border-style: solid;
+  border-width: 48px 28px 0 28px;
+  border-color:orange transparent transparent transparent;
+margin-left:590px;
+}
+#nijibox5 .text2 li:nth-child(3){
+color:red;
+}
+#nijibox5 p{
+margin-top:30px;
+margin-left:600px;
+font-size:40px;
+}
+#nijibox5 a{
+color: orange;
+display: inline-block;
+	position: relative;
+ 	text-decoration: none;
+}
+#nijibox5 a:before{
+content: "";
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 3px;
+	background: #555;
+	transform: scale(0, 1);
+	transition: 0.4s;
+}
+
+#nijibox5 a:hover:before{
+transform: scale(1);
+}
+
+#nijibox6{
+margin-top:300px;
+}
+
+#nijibox6 .en{
+color:black;
+font-size:40px;
+margin-left:30px;
+}
+#nijibox6 .text{
+text-align: center;
+}
+#nijibox6 ul{
+list-style-type: none;
+}
+
+#nijibox6 a{
+display: inline-block;
+	position: relative;
+list-style-type: none;
+font-size:50px;
+text-decoration: none;
+color: #555;
+}
+
+#nijibox6 a:before{
+position: absolute;
+transform: scale(0, 1);
+	transition: 0.4s;
+background: #555;
+content: "";
+left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 3px;
+}
+
+#nijibox6 a:hover:before{
+transform: scale(1);
+}
+
+#nijibox6 p{
+text-align: right;
+padding-top:100px;
+
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>わたしの経歴</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="shibakukisumire-career.css" />
+　 </head>
+
+<header>
+    <h1><a href="index.html"></a></h1>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/01055537/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/shibakukisumire-home.html#home">ホーム</a></li>
+            <li><a href="file:///C:/Users/01055537/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/shibakukisumire-home.html#know">知る</a></li>
+            <li><a href="#mail">お問い合わせ</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+  <body>
+
+ 
+ <div class="myhistory">
+
+
+ <div class="myhistorytext">
+ <h2 class="title">私の経歴</h2>
+ <p class="text">2000.05 茨城県水戸市に生まれる</p>
+ 
+ <p class="text">2004.04 リリーベール幼稚園に入園</p>
+
+ <p class="text">2007.04 水戸市立常盤小学校入学</p>
+
+ <p class="text">2013.04 水戸市立第一中学校入学</p>
+
+ <p class="text">2016.04 茨城県立身水戸第二高校入学</p>
+
+ <p class="text">2019.04 成城大学入学</p>
+
+ <p class="text">2023.04 ニジボックス入社</p>
+ 
+ </div>
+
+ <div class="myhistoryimage">
+ <img class="img1" src="image_6487327 (6).JPG">
+ <img class="img2" src="image_6483441 (5).JPG">
+ <img class="img3" src="image_6483441 (4).JPG">
+ </div>
+
+ </div>
+              
+
+ <div id="mail"></div>
+	<div class="contact">
+	 お問い合わせ<br>Gmail : sumire.shibakuki@nijibox.co.jp<br>Outlook : sumire.shibakuki@waku-2.com
+	</div>
+	
+<p class="copyright">© 2023 sumire shibakuki</p>
+
+  </body>
+
+</html>

@@ -1,0 +1,1069 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.firstpage{
+  background-image:url("rpgbackground.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100%;
+  width:1280px;
+}
+/*ヘッダー*/
+.glonavi{
+  display:flex;
+  align-items: center;
+  background-color: rgba(255,255,255,0.5);
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+.headderimage{
+  margin:0;
+  height:60px;
+  width:60px;
+}
+ul {
+  list-style:none;
+  display:flex;
+  align-items: center;
+}
+
+a{
+  margin:0 0 0 20px;
+  color:#474747;
+  text-decoration: underline;
+  font-family: PixelMplus12;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+img.headimage{
+  width: 60px;
+  height:60px;
+  border-radius:50%;
+  border:solid;
+  border-color:rgba(71,71,71,0.5);
+}
+/*タイトル*/
+.title{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 60px;
+  display:flex;
+  justify-content: center;
+  height:100%;
+}
+.letsgo{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 25px;
+  display:flex;
+  justify-content: center;
+  margin:20px 0px 0px 0px;
+}
+/*スタートボタン*/
+img.startbtn{
+  height:100px;
+}
+.startbutton{
+  display:flex;
+  justify-content: center;
+  position: relative;
+  margin: 90px 0px 0px 0px;
+  padding:0px 0px 25px 0px;
+}
+
+img.startbtn:hover{
+  opacity: 0.5;
+  cursor:pointer;
+}
+img.startbtn:active{
+  position:relative;
+  top: 3px;
+}
+
+.firstview{
+ padding:10% 0% 5% 0%;
+}
+
+/*ここまで一ページ目*/
+/*ここから二ページ目*/
+
+.secondview{
+  background-image:url("graybackground.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100%;
+  width:1280px;
+}
+
+.characterselect{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+  height:100%;
+  padding:110px 0px 0px 0px;
+}
+
+
+.firstpic{
+ height:300px;
+}
+.pickcharacter{
+ text-align:center;
+}
+.select,.name{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 25px;
+  text-decoration:none;
+}
+.pickcharacter{
+  padding:20px 10px 30px 0px;
+}
+.firstimage:hover,.secondpic:hover{
+  opacity: 0.5;
+  cursor:pointer;
+}
+.firstimage:active,.secondpic:active{
+  position:relative;
+  top: 3px;
+}
+
+
+/*ここからモーダル*/
+.modal-002__wrap input,
+.modal-003__wrap input,
+.modal-004__wrap input, 
+.modal-005__wrap input, 
+.modal-006__wrap input, 
+.modal-007__wrap input{
+    display: none;
+}
+
+.modal-002__open-label,
+.modal-002__close-label,
+.modal-003__open-label,
+.modal-003__close-label,
+.modal-004__open-label,
+.modal-004__close-label,
+.modal-005__open-label,
+.modal-005__close-label,
+.modal-006__open-label,
+.modal-006__close-label,
+.modal-007__open-label,
+.modal-007__close-label{
+    cursor: pointer;
+}
+
+.modal-002__open-label,
+.modal-003__open-label, 
+.modal-004__open-label, 
+.modal-005__open-label, 
+.modal-006__open-label, 
+.modal-007__open-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin:0 auto;
+    padding:10px;
+    border: none;
+    border-radius: 0px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 600;
+    font-size:30px ;
+    font-family:PixelMplus12;
+}
+
+.modal-002__open-label:hover,
+.modal-003__open-label:hover, 
+.modal-004__open-label:hover, 
+.modal-005__open-label:hover, 
+.modal-006__open-label:hover, 
+.modal-007__open-label:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.modal-002,
+.modal-003,
+.modal-004,
+.modal-005,
+.modal-006,
+.modal-007{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+}
+
+.modal-002__open-input:checked + label + input + .modal-002 {
+    display: block;
+    animation: modal-002-animation .6s;
+}
+
+.modal-003__open-input:checked + label + input + .modal-003 {
+    display: block;
+    animation: modal-003-animation .6s;
+}
+.modal-004__open-input:checked + label + input + .modal-004 {
+    display: block;
+    animation: modal-004-animation .6s;
+}
+.modal-005__open-input:checked + label + input + .modal-005 {
+    display: block;
+    animation: modal-005-animation .6s;
+}
+.modal-006__open-input:checked + label + input + .modal-006 {
+    display: block;
+    animation: modal-006-animation .6s;
+}
+.modal-007__open-input:checked + label + input + .modal-007 {
+    display: block;
+    animation: modal-007-animation .6s;
+}
+
+.modal-002__content-wrap,
+.modal-003__content-wrap,
+.modal-004__content-wrap,
+.modal-005__content-wrap,
+.modal-006__content-wrap,
+.modal-007__content-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 650px;
+    background-color: #fefefe;
+    z-index: 2;
+    border-radius: 0px;
+}
+
+.modal-002__close-label, 
+.modal-003__close-label,
+.modal-004__close-label,
+.modal-005__close-label,
+.modal-006__close-label,
+.modal-007__close-label
+ {
+    background-color: #777;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 1.6;
+    text-align: center;
+    display: table-cell;
+    position: fixed;
+    top: -15px;
+    right: -2%;
+    z-index: 99999;
+    font-size: 1.3em;
+}
+
+.modal-002__content,
+.modal-003__content,
+.modal-004__content,
+.modal-005__content,
+.modal-006__content,
+.modal-007__content
+ {
+    max-height: 50vh;
+    overflow-y: auto;
+    padding: 39px 45px 40px;
+    font-family:PixelMplus12;
+    font-size:22px;
+    border-radius:0px;
+}
+
+.modal-002__background, 
+.modal-003__background,
+.modal-004__background,
+.modal-005__background,
+.modal-006__background,
+.modal-007__background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .45);
+    z-index: 1;
+}
+
+@keyframes modal-002-animation,
+@keyframes modal-003-animation,
+@keyframes modal-004-animation,
+@keyframes modal-003-animation,
+@keyframes modal-006-animation,
+@keyframes modal-007-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .modal-002__open-label,
+    .modal-003__open-label,
+    .modal-004__open-label,
+    .modal-005__open-label,
+    .modal-006__open-label,
+    .modal-007__open-label
+      {
+        max-width: 90%;
+        padding: .94em 2.1em .94em 2.6em;
+    }
+
+    .modal-002__close-label, 
+    .modal-003__close-label, 
+    .modal-004__close-label,
+    .modal-005__close-label, 
+    .modal-006__close-label, 
+    .modal-007__close-label {
+        top: -17px;
+        right: -4%;
+    }
+
+    .modal-002__content-wrap, 
+    .modal-003__content-wrap, 
+    .modal-004__content-wrap,
+    .modal-005__content-wrap, 
+    .modal-006__content-wrap, 
+    .modal-007__content-wrap {
+        width: 90vw;
+    }
+
+    .modal-002__content,
+    .modal-003__content, 
+    .modal-004__content, 
+    .modal-005__content,
+    .modal-006__content, 
+    .modal-007__content{
+        padding: 33px 21px 35px;
+        max-width: 100%;
+    }
+}
+.modalup,.modaldown{
+  display:flex;
+  justify-content: flex-end;
+  gap:50px;
+  margin:0px 50px 0px 0px;
+}
+
+.modalup{
+  padding: 15% 0% 5% 0%;
+}
+.modaldown{
+  padding: 0% 0% 5% 0%;
+}
+.pickcharacter{
+  display:flex;
+  gap:100px;
+}
+.modalpics{
+  width:400px;
+  align-items:center;
+
+}
+
+.mycontent{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+/*ここから3枚目*/
+.thirdpage{
+  background-image:url("backgroundkensyuu.png");
+  background-repeat:no-repeat;
+  background-position: center center
+   background-attachment: fixed;
+  background-size: 100% 100%;
+  height:200vh;
+  width:1280px;
+  position:relative
+}
+.dounyuukennsyuu{
+  color:white;
+  font-family:PixelMplus12;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+  padding:50px 0px;
+}
+/*ここからボタン*/
+.modal-008__wrap input,
+.modal-009__wrap input,
+.modal-010__wrap input, 
+.modal-011__wrap input, 
+.modal-012__wrap input, 
+.modal-013__wrap input,
+.modal-014__wrap input,
+.modal-015__wrap input,
+.modal-016__wrap input,
+.modal-017__wrap input{
+    display: none;
+}
+
+.modal-008__open-label,
+.modal-008__close-label,
+.modal-009__open-label,
+.modal-009__close-label,
+.modal-010__open-label,
+.modal-010__close-label,
+.modal-011__open-label,
+.modal-011__close-label,
+.modal-012__open-label,
+.modal-012__close-label,
+.modal-013__open-label,
+.modal-013__close-label,
+.modal-014__open-label,
+.modal-014__close-label,
+.modal-015__open-label,
+.modal-015__close-label,
+.modal-016__open-label,
+.modal-016__close-label,
+.modal-017__open-label,
+.modal-017__close-label
+{
+    cursor: pointer;
+}
+
+ /*見え方普通の時*/
+.modal-008__open-label,
+.modal-009__open-label,
+.modal-010__open-label,
+.modal-011__open-label,
+.modal-012__open-label,
+.modal-013__open-label,
+.modal-014__open-label,
+.modal-015__open-label,
+.modal-016__open-label,
+.modal-017__open-label
+{
+    padding:25px;
+    margin:0 auto;
+    border: 15px;
+    border-radius: 100px;
+    background-color: gold;
+    font-family:PixelMplus12;
+    font-size:15px;
+    color:transparent;
+    
+}
+
+.modal-008__open-label:hover,
+.modal-009__open-label:hover, 
+.modal-010__open-label:hover, 
+.modal-011__open-label:hover, 
+.modal-012__open-label:hover, 
+.modal-013__open-label:hover, 
+.modal-014__open-label:hover, 
+.modal-015__open-label:hover, 
+.modal-016__open-label:hover, 
+.modal-017__open-label:hover{
+    background-color: white;
+    outline: 5px solid gold;
+}
+.modal-008,
+.modal-009,
+.modal-010,
+.modal-011,
+.modal-012,
+.modal-013,
+.modal-014,
+.modal-015,
+.modal-016,
+.modal-017{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+}
+.modal-008__open-input:checked + label + input + .modal-008 {
+    display: block;
+    animation: modal-008-animation .6s;
+}
+
+.modal-009__open-input:checked + label + input + .modal-009 {
+    display: block;
+    animation: modal-009-animation .6s;
+}
+.modal-010__open-input:checked + label + input + .modal-010 {
+    display: block;
+    animation: modal-010-animation .6s;
+}
+.modal-011__open-input:checked + label + input + .modal-011 {
+    display: block;
+    animation: modal-011-animation .6s;
+}
+.modal-012__open-input:checked + label + input + .modal-012 {
+    display: block;
+    animation: modal-012-animation .6s;
+}
+.modal-013__open-input:checked + label + input + .modal-013 {
+    display: block;
+    animation: modal-013-animation .6s;
+}
+.modal-014__open-input:checked + label + input + .modal-014 {
+    display: block;
+    animation: modal-014-animation .6s;
+}
+
+.modal-015__open-input:checked + label + input + .modal-015 {
+    display: block;
+    animation: modal-015-animation .6s;
+}
+.modal-016__open-input:checked + label + input + .modal-016 {
+    display: block;
+    animation: modal-016-animation .6s;
+}
+.modal-017__open-input:checked + label + input + .modal-017 {
+    display: block;
+    animation: modal-017-animation .6s;
+}
+
+ /*モーダル中身*/
+.modal-008__content-wrap,
+.modal-009__content-wrap,
+.modal-010__content-wrap,
+.modal-011__content-wrap,
+.modal-012__content-wrap,
+.modal-013__content-wrap,
+.modal-014__content-wrap,
+.modal-015__content-wrap,
+.modal-016__content-wrap,
+.modal-017__content-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 650px;
+    background-color: #fefefe;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+ /*閉じるマーク*/
+.modal-008__close-label, 
+.modal-009__close-label,
+.modal-010__close-label,
+.modal-011__close-label,
+.modal-012__close-label,
+.modal-013__close-label, 
+.modal-014__close-label,
+.modal-015__close-label,
+.modal-016__close-label,
+.modal-017__close-label
+ {
+    background-color: #777;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 1.6;
+    text-align: center;
+    display: table-cell;
+    position: fixed;
+    top: -15px;
+    right: -2%;
+    z-index: 99999;
+    font-size: 1.3em;
+}
+
+
+.modalpicture,.modalpics{
+  width:400px;
+}
+ /*モーダル内容*/
+.modaltitle{
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 39px 45px 40px;
+    font-family:PixelMplus12;
+    border-radius:0px;
+    font-size:25px;
+    margin:0px 0px 10px 0px;
+}
+ /*モーダル時背景色*/
+.modal-008__background, 
+.modal-009__background,
+.modal-010__background,
+.modal-011__background,
+.modal-012__background,
+.modal-013__background, 
+.modal-014__background,
+.modal-015__background,
+.modal-016__background,
+.modal-017__background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .45);
+    z-index: 1;
+}
+
+
+/*モーダルアニメーション*/
+@keyframes modal-008-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-009-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-010-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-011-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-012-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-013-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-014-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-015-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-016-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes modal-017-animation
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*モーダル*/
+@media only screen and (max-width: 520px) {
+    .modal-008__open-label,
+    .modal-009__open-label,
+    .modal-010__open-label,
+    .modal-011__open-label,
+    .modal-012__open-label,
+    .modal-013__open-label,
+    .modal-014__open-label,
+    .modal-015__open-label,
+    .modal-016__open-label,
+    .modal-017__open-label
+      {
+        max-width: 90%;
+        padding: .94em 2.1em .94em 2.6em;
+    }
+    .modal-008__close-label, 
+    .modal-009__close-label, 
+    .modal-010__close-label,
+    .modal-011__close-label, 
+    .modal-012__close-label, 
+    .modal-013__close-label, 
+    .modal-014__close-label,
+    .modal-015__close-label, 
+    .modal-016__close-label, 
+    .modal-017__close-label {
+        top: -17px;
+        right: -4%;
+    }
+    .modal-008__content-wrap, 
+    .modal-009__content-wrap, 
+    .modal-010__content-wrap,
+    .modal-011__content-wrap, 
+    .modal-012__content-wrap, 
+    .modal-013__content-wrap, 
+    .modal-014__content-wrap,
+    .modal-015__content-wrap, 
+    .modal-016__content-wrap, 
+    .modal-017__content-wrap {
+        width: 90vw;
+    }
+    .modal-008__content,
+    .modal-009__content, 
+    .modal-010__content, 
+    .modal-011__content,
+    .modal-012__content, 
+    .modal-013__content,
+    .modal-014__content, 
+    .modal-015__content, 
+    .modal-016__content,
+    .modal-017__content{
+        padding: 33px 21px 35px;
+        max-width: 100%;
+    }
+}
+
+/*ボタン位置*/
+.modal-008__wrap{
+   position:absolute;
+   top:210px;
+   left:210px;
+}
+.modal-009__wrap{
+   position:absolute;
+   top:275px;
+   left:595px;
+}
+.modal-010__wrap{
+   position:absolute;
+   top:210px;
+   left:955px;
+}
+.modal-011__wrap{
+   position:absolute;
+   top:510px;
+   left:820px;
+}
+.modal-012__wrap{
+   position:absolute;
+   top:630px;
+   left:380px;
+}
+.modal-013__wrap{
+   position:absolute;
+   top:780px;
+   left:490px;
+}
+.modal-014__wrap{
+   position:absolute;
+   top:880px;
+   left:845px;
+}
+.modal-015__wrap{
+   position:absolute;
+   top:1075px;
+   left:995px;
+}
+.modal-016__wrap{
+   position:absolute;
+   top:1200px;
+   left:640px;
+}
+.modal-017__wrap{
+   position:absolute;
+   top:1200px;
+   left:350px;
+}
+/*モーダル内写真と文字の位置関係*/
+.modaltitle,.modalpicture,.modalbutton{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  line-height:1.5;
+}
+
+
+.modalbutton{
+    width: 160px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    color: white;
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+    font-weight: bold;
+    background: orange;
+    text-align: center;
+    font-size:20px ;
+    font-family:PixelMplus12;
+    margin:10px 0px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    text-decoration:none
+}
+
+.modalbutton:hover,
+.modalbutton:active {
+    background: #ffb216;
+}
+/*ここから四ページ目*/
+.fourthpage{
+  background-color:white;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100%;
+}
+
+.result{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+  margin:50px 0px 45px 0px;
+}
+.oneuppic{
+ height:70px;
+ animation-name:fuwafuwa;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-duration: 1.5s;
+}
+
+@keyframes fuwafuwa {
+    0% {
+        transform: translate(0,0px);
+    }
+
+    100% {
+        transform: translate(0,-15px)
+    }
+}
+.secondpic,.tonextstage{
+ height:350px;
+}
+
+.congratulation{
+ text-align:center;
+ align-items:center;
+}
+.aftername{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 25px;
+}
+.secondimage{
+  padding:0px 0px 30px 0px;
+}
+.resultflame1,.resultflame2,.resultflame3,.resultflame4{
+  height:230px;
+  width:380px;
+  margin:0px 0px 30px 0px;
+}
+.resultbox1,.resultbox2{
+  display:flex;
+  flex-direction:column;
+}
+.outcome{
+ display:flex;
+ justify-content:space-around;
+}
+/*学び中身*/
+.BOX{
+  position:relative;
+}
+.boxcontent{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:300px;
+  text-align:center;
+}
+.boxtitle{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 28px;
+  margin:10px 0px 10px 0px;
+}
+
+.boxtext{
+  color:black;
+  font-family:PixelMplus12;
+  font-size: 18px;
+}
+
+/*ここから五ページ目*/
+.fifthpage{
+  background-image:url("orangebackground.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100%;
+  width:1280px;
+}
+.lasttitle{
+  color:white;
+  font-family:PixelMplus12;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+  padding:50px 0px 25px 0px;
+}
+.checkplease{
+  color:white;
+  font-family:PixelMplus12;
+  font-size: 20px;
+  display:flex;
+  justify-content: center;
+  margin:0px 0px 20px 0px;
+}
+
+.laststatement{
+  width:800px;
+  height:450px;
+}
+.pictureandstatement{
+  display:flex;
+  align-items:center;
+  padding:0px 0px 25px 0px;
+}
+
+.checkmyslack:hover{
+  opacity: 0.5;
+  cursor:pointer;
+}
+.checkmyslack:active{
+  position:relative;
+  top: 3px;
+}
+.ECM_CheckboxInput {
+  padding: 12px 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.ECM_CheckboxInput-Input {
+  margin: 0;
+  width: 0;
+  opacity: 0;
+}
+.ECM_CheckboxInput:hover > .ECM_CheckboxInput-DummyInput {
+  background: transparent !important;
+  border: solid 2px #333333;
+}
+.ECM_CheckboxInput-Input:focus + .ECM_CheckboxInput-DummyInput {
+  background: transparent !important;
+  border: solid 2px #333333;
+}
+.ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput {
+  border: solid 2px #333333;
+  background: transparen;
+}
+.ECM_CheckboxInput-Input:checked + .ECM_CheckboxInput-DummyInput::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hlY2siPjxwb2x5bGluZSBwb2ludHM9IjIwIDYgOSAxNyA0IDEyIj48L3BvbHlsaW5lPjwvc3ZnPg==") no-repeat center;
+  background-size: contain;
+}
+.ECM_CheckboxInput-DummyInput {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: solid 2px white;
+  background:transparent;
+  border-radius: 0px;
+}
+.ECM_CheckboxInput-LabelText {
+  margin-left: 30px;
+  display: block;
+  font-size: 20px;
+  font-family:PixelMplus12;
+  color:white;
+}
+
+
+.checklist{
+ position:relative;
+}
+
+.clickbox{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:700px;
+}
+
+.checkmyslack{
+ text-align:center;
+ padding:0px 30px 0px 20px;
+}
+.clickhere{
+  color:orange;
+  font-family:PixelMplus12;
+  font-size: 15px;
+  text-decoration:none;
+}

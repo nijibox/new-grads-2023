@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+<link rel="stylesheet" href="自主制作.css">
+</head>
+<header id="header">
+<nav>
+<ul class="gnav-navi-1">
+<li><a href="#">ABOUT<br>福家律樹について</a></li>
+<li><a href="#">EXPERIENCE<br>これまでの経験</a></li>
+
+</ul>
+</nav>
+</header>
+
+<div class="card-container">
+    <div class="card-img">
+        <a href="#"><img width="768" height="512" src="俺2.jpeg"></a>
+</div>
+    <div class="card-text">
+        <a href="#"><h2>ABOUT ME</h2></a>
+        <h1>福家律樹</h1>
+       <h2>座右の銘</h2>
+         <p>失敗したらガッツポーズ　by松岡修造氏</p>
+       <h2>ドラゴンボールの保有数</h2>
+         <p>3個</p>
+</div>
+
+

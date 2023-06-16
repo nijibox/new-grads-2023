@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ayatyang profile</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+
+    <header class="header">
+      <!-- ヘッダーロゴ -->
+      <div class="logo"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/top/top.html">ayachang web</a></div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+    
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+        <!-- メニュー -->
+        <form class="content">
+          <div class="list">
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/top/top.html?#" class="btn_item">Top</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/profile/profile.html" class="btn_item">Profile</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/work/work.html" class="btn_item">Work</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/face/face.html" class="btn_item">Face's</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/cameraroll/cameraroll.html" class="btn_item">Camera roll</a>
+          </div>
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/C05BPJK8H9T">#times_ayaka-ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">ayaka.ichiyanagi@nijibox.co.jp</a></p>
+	  </div>
+	</form>
+      </div
+    </header>
+
+
+　　　<!-- メインワード -->
+      <div class="main-img">
+              <h1>Profile</h1>
+      </div>
+　　　<!-- メイン画像 -->
+    <main>
+    <div class="profile-main1">
+       <div class="about">
+	  <div class="about-tittle"><h1 class="about-tittle-word">About</h1></div>
+	<div class="about-text">
+	    <div class="about-name"><p id="about-name-jap">一柳　文花</p><p id="about-name-alph">Ichiyanagi Ayaka</p></div>
+	    <p class="about-word">1998/05/31<br/>横浜出身<br/>B型<br/>日本大学芸術学部写真学科　卒業</p>
+	　　<a class="about-link" href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/work/work.html">卒業制作はここ！</a>
+	</div>
+
+	<div class="about-image">
+	    <img class="about-img" alt="" src="profileimg.jpg" >
+	</div>
+       </div>
+    </div>
+
+   <div class="profile-main2">
+       <div class="love">
+	  <div class="love-tittle"><h1 class="love-tittle-word">Love</h1></div>
+       </div>
+	<section>
+    <div class="container">
+        <div class="carousel">
+            <ul class="carousel__slides">
+                <li id="slide-1" class="carousel__slide">
+                    <figure>
+                        
+                            <img src="マスクグループ 3.png" alt="">
+                        
+                        <figcaption>
+                            世界が恋する「ケラマブルー」<br/>
+                            <span class="credit">スキンダイビング at 座間味島<br/>毎シーズン楽しみにしてます</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li id="slide-2" class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="IMG-2753.jpg" alt="">
+                        </div>
+                        <figcaption>
+                           お皿とお料理の相性<br/>
+                            <span class="credit">丁寧な食卓でお料理も空間を素敵な時間にすることがとても好きです</span>                            
+                        </figcaption>
+                    </figure>
+                </li>
+                <li id="slide-3" class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="IMG-0119.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            スノーボード<br/>
+                            <span class="credit">目指せキッカー！<br/>2022年は一人でゲレンデに行ってました！</span>                            
+                        </figcaption>
+                    </figure>
+                </li>
+                <li id="slide-4" class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="beauty-1663852454747.JPG" alt="">
+                        </div>
+                        <figcaption>
+                           行き当たりばっかりな旅行<br/>
+                            <span class="credit">地元の人の出会いも楽しみの一つ！<br/>写真:韓国</span>                            
+                        </figcaption>
+                    </figure>
+                </li>
+                <li id="slide-5" class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="IMG-6806.JPG" alt="">
+                        </div>
+                        <figcaption>
+                           推しのGLIM SPANKY<br/>
+                            <span class="credit">大学の青春となった大好きなアーティスト</span>                              </figcaption>
+                    </figure>
+                </li>
+            </ul>    
+            <ul class="carousel__thumbnails">
+<!-- クリックする場所 -->
+                <li>
+                    <a href="#slide-1"><img src="マスクグループ 3.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#slide-2"><img src="IMG-2753.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#slide-3"><img src="IMG-0119.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#slide-4"><img src="beauty-1663852454747.JPG" alt=""></a>
+                </li>
+                <li>
+                    <a href="#slide-5"><img src="IMG-6806.JPG" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+   </div>
+
+　　　<!-- 歴史 -->
+       <div class="history">
+	  <div class="history-tittle"><h1 class="history-tittle-word">History</h1></div>
+       </div>
+
+
+<div class="entries">
+  <div class="entry">
+    <div class="title">1998/05</div>
+    <div class="history-text">
+      <p><span>一柳文花の誕生</span></p>
+      <img class="history-img1" alt="" src="IMG-6357.jpg" >
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">2002/05</div>
+    <div class="history-text">
+      <p><span>キスを覚えさせられる</span><br/>保育園では誕生月にキスが恒例化されている</p>
+      <img class="history-img2" alt="" src="IMG-6356.jpg" >
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="title">2011/08</div>
+    <div class="history-text">
+      <p><span>バスケットボール部が神奈川県 No.1 !!</span><br/>最高の舞台に行くことができ、<br/>当時の顧問は私の育ての親でもある</p>      <img class="history-img3" alt="" src="IMG-6358.jpg" >
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">2020/01</div>
+    <div class="history-text">
+      <p><span>news every.にてテレビ出演</span><br/>アルバイト先で看板娘の私を取材される</p>
+      <img class="history-img4" alt="" src="IMG-5558.JPG" >
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">2022/09</div>
+    <div class="history-text">
+      <p><span>WWD JAPANにて週刊情報誌デビュー</span><br/>FUJIROCK FESでスナップ！</p> 
+      <img class="history-img5" alt="" src="スクリーンショット 2023-06-12 152202.png" >
+      <img class="history-img6" alt="" src="スクリーンショット 2023-06-12 152132.png" >
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">2022/12</div>
+    <div class="history-text">
+      <p><span>推しのLIVEにて神席GET！！！</span></p>
+      <img class="history-img7" alt="" src="0078EFBD-EF9B-4760-9510-9D387EF9F8AE.jpg" >
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">2023/02</div>
+    <div class="history-text">
+      <p><span>郷に従えば郷に従え</span><br/>ブラジル人のお友達ができたよ<br/>ダンスで心も繋がった♡</p>
+      <img class="history-img8" alt="" src="IMG-6359.PNG" >
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">2023/04</div>
+    <div class="history-text">
+      <p><span>NIJIBOX入社</span><br/>新たな仲間とスタート！</p>
+      <img class="history-img9" alt="" src="IMG-4507.JPG" >
+    </div>
+  </div>
+</div>
+
+<div class="v_line_fix"></div>
+</main>
+
+
+　　　<!-- フッター -->
+<div class="footer-main">
+  <footer>
+	  <div class="footer">
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/top/top.html" class="footer-link">Top</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/profile/profile.html" class="footer-link">Profile</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/work/work.html" class="footer-link">Work</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/face/face.html" class="footer-link">Face's</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/cameraroll/cameraroll.html" class="footer-link">Camera Roll</a></p>
+	  </div>
+  </footer>
+
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/C05BPJK8H9T">#times_ayaka-ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">ayaka.ichiyanagi@nijibox.co.jp</a></p>
+	  </div>
+
+	  <div class="copyright">
+	    <p class=copyright-word>© 2023 ayaka ichiyanagi</p>
+          </div>
+</div>
+</body>
+</html>

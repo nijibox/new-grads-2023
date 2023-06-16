@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ayatyang face</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="face.css" />
+  </head>
+<body>
+
+    <header class="header">
+      <!-- ヘッダーロゴ -->
+      <div class="logo">ayachang web</div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+    
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+        <!-- メニュー -->
+        <form class="content">
+          <div class="list">
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/top/top.html?#" class="btn_item">Top</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/profile/profile.html" class="btn_item">Profile</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/work/work.html" class="btn_item">Work</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/face/face.html" class="btn_item">Face's</a>
+            <a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/cameraroll/cameraroll.html" class="btn_item">Camera roll</a>
+          </div>
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/C05BPJK8H9T">#times_ayaka-ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">ayaka.ichiyanagi@nijibox.co.jp</a></p>
+	  </div>
+	</form>
+      </div
+    </header>
+
+  <main>
+　　　<!-- メインワード -->
+      <div class="main-img">
+              <h1>Face's</h1>
+      </div>
+　　　<!-- メイン -->
+	<div class="face-carsol">
+	  <p>▼カーソルを当ててみて！<p/>
+        </div>
+
+   <div class="faces-wrapper">
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6328.jpg" >
+        <p class="face-text">平常</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6330.jpg" >
+        <p class="face-text">酔っ払い</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6303.jpg" >
+        <p class="face-text">怒り</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6315.jpg" >
+        <p class="face-text">急ぎ</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6307.jpg" >
+        <p class="face-text">不安</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6321.jpg" >
+        <p class="face-text">狂喜</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6313.jpg" >
+        <p class="face-text">いたずら前</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6325.jpg" >
+        <p class="face-text">ヤだ</p>
+      </div>
+      <div class="face">
+	<img class="face-img" alt="" src="IMG-6323.jpg" >
+        <p class="face-text">ビジュ最高</p>
+      </div>
+   </div>
+  </main>
+
+
+　　　<!-- フッター -->
+  <footer>
+	  <div class="footer">
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/top/top.html" class="footer-link">Top</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/profile/profile.html" class="footer-link">Profile</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/work/work.html" class="footer-link">Work</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/face/face.html" class="footer-link">Face's</a></p>
+             <p class="footer-word"><a href="file:///C:/Users/01055534/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/pagecoding/cameraroll/cameraroll.html" class="footer-link">Camera Roll</a></p>
+	  </div>
+  </footer>
+
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/C05BPJK8H9T">#times_ayaka-ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">ayaka.ichiyanagi@nijibox.co.jp</a></p>
+	  </div>
+
+	  <div class="copyright">
+	    <p class=copyright-word>© 2023 ayaka ichiyanagi</p>
+          </div>
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+/*枠デザイン*/
+body {
+  background: #F6F3DA; 
+  background-size: cover;
+  width: 100%;
+  display:flex;
+}
+.menubox {
+  position: fixed;
+  top: 1.5vw;
+  right: 1.1vw;
+  z-index: 1000;
+}
+.menu-btn {
+    display: flex;
+    height: 5vw;
+    width: 13vw;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn:hover {
+  transform: scale(1.1,1.1); 
+}
+.menu-btn span,
+.menu-btn span:after {
+    content: 'めにゅー';
+    color: #fff;
+    font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+    display: block;
+    height: 1.5vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    background-color: rgba(255, 255, 255, 0);
+    content: 'とじる';
+    color: #fff;
+    font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+    display: block;
+    height: 1.5vw;
+    width: 11vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+#menu-btn-check {
+    display: none;
+}
+.menu-content ul {
+    padding: 1vw 1vw 0px 47vw;
+    display: flex;
+}
+.menu-content ul li {
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+    color:#49D0FF;
+    font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+    text-decoration: none;
+    padding: 0.7vw 1.2vw 1vw 0;
+    position: relative;
+}
+.menu-content {
+    position: fixed;
+    top: 0;
+    left: 100%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+}
+.menu-content a:hover {
+    color: blue;
+}
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;/*メニューを画面内へ*/
+}
+
+h2 {
+  font-size: 3.3vw;
+  color: #FFF; 
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+}
+/*ページトップ*/
+.topbox{
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+}
+.titleboad {
+  margin: 0px 0px 0px 3vw;
+  position: absolute;
+  width: 25vw;
+}
+.bluegazou {
+  margin: 1.5vw 0px 0px 25vw;
+  position: absolute;
+  width: 8vw;
+}
+.yousu {
+  margin: 2.6vw 0px 0px 27vw;
+  position: absolute;
+  font-size: 1.1vw;
+  color: #FFF;
+}
+.pagetitle {
+  font-size: 3.5vw;
+  color: #49D0FF; 
+  margin: 4.2vw 0px 0px 5vw;
+  position: absolute;
+}
+.doorgazou {
+  margin: 10vw 0px 0px 80vw;
+  position: absolute;
+  width: 18vw;
+}
+.doorgazou:hover {
+  transform: scale(1.1,1.1); 
+}
+.taikinn {
+  font-size: 1.5vw;
+  color: #9B9B9B;
+  position: absolute;
+  margin: 21vw 0px 0px 84vw;
+}
+.pageshift {
+  font-size: 1vw;
+  color: #9B9B9B; 
+  position: absolute;
+  margin: 23vw 0px 0px 84.5vw;
+}
+.yokosenn {
+  margin: 16.7vw 0px 0px 0px;
+  width: 55vw;
+  position: absolute;
+}
+.risou {
+  margin: 13vw 0px 0px 28vw;
+  position: absolute;
+  width: 37vw;
+}
+.risou:hover {
+  transform: scale(1.1,1.1); 
+}
+.sagyou {
+  margin: 25vw 0px 0px 55vw;
+  position: absolute;
+  width: 43vw;
+}
+.sagyou:hover {
+  transform: scale(1.1,1.1); 
+}
+.pcsmall {
+  margin: 29vw 0px 0px 4vw;
+  position: absolute;
+  width: 30vw;
+}
+.pcsmall:hover {
+  transform: scale(1.1,1.1); 
+}
+
+/*成果物画面*/
+.detabox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.5vw;
+}
+.midashi1{
+  margin: 55vw 0px 0px 1vw;
+  position: absolute;
+  width: 25vw;
+}
+.seikabutu {
+  margin: 56vw 0px 0px 9vw;
+  position: absolute;
+}
+.suraido {
+  margin: 95vw 0px 0px 1vw;
+  position: absolute;
+  width: 15vw;
+}
+.migini {
+  margin: 97.5vw 0px 0px 2.7vw;
+  position: absolute;
+  font-size: 1.5vw;
+}
+.scroll_content { /* リスト全体のスタイル */
+  display: flex;
+  max-width: 75%;
+  overflow-x: auto;
+  margin: 65vw 0px 0px 15vw;
+}
+.scroll_content h3 {
+  3vw
+}
+.scroll_content li { /* 各リストのスタイル */
+  width: 90%;
+  padding: 0.7vw;
+  margin: 0.3vw;
+  flex-shrink: 0;
+  list-style: none;
+}
+ 
+.scroll_content img { /* 画像のスタイル */
+  max-height: 30vw;
+  object-fit: cover;
+}
+ 
+.scroll_content::-webkit-scrollbar {
+  height: 1.5vw; /* スクロールバーの高さ */
+}
+ 
+.scroll_content::-webkit-scrollbar-thumb {
+  background: #49D0FF; /* ツマミの色 */
+  border-radius: 6px; /* ツマミ両端の丸み */
+}
+ 
+.scroll_content::-webkit-scrollbar-track {
+  background: #ddd; /* トラックの色 */
+  border-radius: 6px; /* トラック両端の丸み */
+}
+ 
+ 
+@media screen and (min-width: 450px) {
+ 
+  .scroll_content li {
+    width: 80%;
+  }
+ 
+}
+.yazirushiue {
+  margin: 0.1vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue:hover {
+  transform: scale(1.1,1.1); 
+}
+/*研修を通じて画面*/
+.kennshuubox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.8vw;
+  height: 165px;
+}
+.kennshuubox img {
+    max-width: 100%;
+    height: auto;
+}
+.midashi2 {
+  padding: 2vw 0px 0px 1vw;
+  position: absolute;
+  width: 26vw;
+}
+.kennshuu {
+  padding: 3vw 0px 0px 4vw;
+  position: absolute;
+}
+.rikai {
+  padding: 15vw 0px 0px 13vw;
+  position: absolute;
+}
+.yazirushishita {
+  padding: 30vw 0px 0px 0px;
+  display: flex;
+  margin : 0 auto;
+  width: 6vw;
+}
+.kyoutyou {
+  padding: 0px 0px 0px 4vw;
+  position: absolute;
+  transform: rotate(-10deg);
+  width: 10vw;
+}
+.matome {
+  padding: 3vw 0px 0px 12vw;
+  position: absolute;
+}
+.yazirushiue2 {
+  margin: 13vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue2:hover {
+  transform: scale(1.1,1.1); 
+}
+/*理想像画面*/
+.risouzoubox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.5vw;
+  height: 165px;
+}
+.kiiro {
+margin: 4vw 0px 0px 1vw;
+  width: 5vw;
+}
+.midashi3 {
+  margin: 45vw 0px 0px 1vw;
+  position: absolute;
+  width: 25vw;
+}
+.risouzou {
+  padding: 46.5vw 0px 0px 9vw;
+  position: absolute;
+}
+.zyosei {
+  width: 40vw;
+  margin: 48vw 0px 0px 31vw;
+  position: absolute;
+}
+.hukidashi2 {
+  margin: 57vw 0px 0px 9vw;
+  position: absolute;
+  width: 30vw;
+}
+.hukidashi3 {
+  transform: scale(-1, 1);
+  margin: 57vw 0px 0px 63vw;
+  position: absolute;
+  width: 30vw;
+}
+.hukidashi4 {
+  margin: 79vw 0px 0px 9vw;
+  position: absolute;
+  width: 30vw;
+}
+.hukidashi5 {
+  transform: scale(-1, 1);
+  margin: 79vw 0px 0px 63vw;
+  position: absolute;
+  width: 30vw;
+}
+.risou1 {
+  margin: 60vw 0px 0px 11vw;
+  position: absolute;
+}
+.risou2 {
+  margin: 60vw 0px 0px 66vw;
+  position: absolute;
+}
+.risou3 {
+  margin: 82vw 0px 0px 11vw;
+  position: absolute;
+}
+.risou4 {
+  margin: 82vw 0px 0px 66vw;
+  position: absolute;
+}
+.yazirushiue3 {
+  margin: 94vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue3:hover {
+  transform: scale(1.1,1.1); 
+}

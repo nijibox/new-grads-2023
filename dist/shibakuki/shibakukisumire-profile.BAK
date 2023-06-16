@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>シバクキスミレって誰？</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="shibakukisumire-profile.css" />
+　 </head>
+
+<header>
+    <h1><a href="index.html"></a></h1>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/01055537/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/shibakukisumire.html#home">ホーム</a></li>
+            <li><a href="file:///C:/Users/01055537/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/shibakukisumire.html#know">知る</a></li>
+            <li><a href="#mail">お問い合わせ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+  <div class="top" >
+ 	<img class="topimage" src="20230609.jpg">
+  </div>
+
+
+
+<div class="profile">
+
+     <div class="profiletext"><h2>柴久喜すみれ</h2>
+<p>しばくき・すみれ｜社会人。2000年5月21日生まれの<br>ふたご座。茨城県水戸市で生まれ育つ。MBTIは起業家<br>（ESTP）で血液                                   型はB型。食事は右手で、それ以外は<br>左手を使って生活する。ニジボックスでのあだ名は<br>特にないが、学生時代はくっきー                                  、すみちゃん、<br>バイオレットと呼ばれていた。slackのアイコンは幼少期に<br>よく読んでいた絵本「バムとケロ」のケロ。
+                              </p>
+　   </div>
+
+　   <img class="kero" src="thumb_list0000422.jpg">
+
+</div>
+
+
+ <div id="mail"></div>
+	<div class="contact">
+	 お問い合わせ<br>Gmail : sumire.shibakuki@nijibox.co.jp<br>Outlook : sumire.shibakuki@waku-2.com
+	</div>
+	
+	
+<p class="copyright">© 2023 sumire shibakuki</p>
+
+
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>わたしの青春時代</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="shibakukisumire-school.css" />
+　 </head>
+
+<header>
+    <h1><a href="index.html"></a></h1>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/01055537/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/shibakukisumire.html#home">ホーム</a></li>
+            <li><a href="file:///C:/Users/01055537/Desktop/%E8%87%AA%E4%B8%BB%E5%88%B6%E4%BD%9C/shibakukisumire.html#know">知る</a></li>
+            <li><a href="#mail">お問い合わせ</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+ 
+ <body>
+<div class="A">
+<h2 class ="text1">わたしの青春時代　部活編</h2>
+<div>
+
+<div class="contents">
+  <div class="item"><img src="unnamed (18).jpg"><p>中学時代は卓球部に入部。理由は焼<br>けたくないし、ハードな運動は苦手<br>だから。ラケットスポーツは未経験<br>だったけど案外楽しかった。全然上<br>手くなかったけど、左利きが重宝さ<br>れて部で一番うまい子とダブルスを<br>組ませてもらえた。温泉の卓球なら<br>負けないぞっ！</p></div>
+  <div class="item"><img src="image_6483441 (7).JPG"><p>新入生歓迎会での先輩方のキラキラ<br>した姿に憧れ、高校時代はダンス部<br>に入部。体幹ゼロ、リズム感ゼロの<br>私にとって、決して楽な3年間では<br>なかったが、同期に恵まれ充実した<br>ダンス部ライフを送る。写真は地元<br>の神社をお借りして創作ダンスを<br>披露しているところ。</p></div>
+  <div class="item"><img src="image_6487327 (9).JPG"><p>大学では絶対にサークルと決めてい<br>たのに、女子高の雰囲気が忘れられ<br>ず、どことなく雰囲気が似ていた<br>「女子タッチフットボール部」にマネ<br>ージャーとして入部する。土日の拘<br>束や厳しいルールなどに4年間苦し<br>んだが、4年の冬に悲願の全国制覇<br>を果たし一生の思い出となる。</p></div>
+</div>
+
+
+<div class="B">
+<h2 class ="text2">わたしの青春時代　アルバイト編</h2>
+<div>
+
+<div class="contents2">
+  <div class="item2"><img src="unnamed (111).jpg"><p>2年半ラーメン屋で働いた。行列必<br>至の人気店「はやし田」の系列店で<br>大山鳥のスープと全粒粉の麺がすご<br>くおいしいラーメン屋さん。店舗で<br>は主に洗い場とホール業務をこなす。<br>ビールを注ぐのは大の苦手。失敗し<br>すぎて店長に怒られた。</p></div>
+  <div class="item2"><img src="image_6483441 (9).JPG"><p>新宿のGUでは４年間働いた。応募<br>理由は服が好きだったのと、とにか<br>く都会で働いてみたかったから。ス<br>タッフはなんと200人も在籍して<br>いて、たくさんの友達ができた。な<br>かなか忙しく大変なバイトであった<br>が、貴重な経験ができて楽しかった。</p></div>
+  <div class="item2"><img src="image_6487327 (90).JPG"><p>約1年間、当時住んでいた家の近く<br>のフルーツサンド屋さんで働いた。<br>販売職で応募したものの、人手不足<br>で製造に回ることに。素人にとって<br>見た目が命のフルーツサンドを作る<br>のはめちゃくちゃ大変だった。たく<br>さん練習したので今でも作れるはず。</p></div>
+</div>
+
+ <div id="mail"></div>
+	<div class="contact">
+	 お問い合わせ<br>Gmail : sumire.shibakuki@nijibox.co.jp<br>Outlook : sumire.shibakuki@waku-2.com
+	</div>
+
+<p class="copyright">© 2023 sumire shibakuki</p>
+
+</body>
+</html>
+ 

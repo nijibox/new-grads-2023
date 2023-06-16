@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: 'Noto Sans JP', sans-serif;
+  background:#f6f5f4;
+}
+header {
+  width: 100%;
+  height: 40px;
+  background:#f6f5f4;
+  display: flex; /* flexboxを作る */
+  align-items: center; /* 上下中央に揃える */
+  justify-content: space-between; /* 両端に配置 */
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  z-index:100;
+}
+h1 a {
+  color: #1a1a1a;
+  font-size: 30px;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li a {
+  padding: 10px 15px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.contents {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 40px auto;
+    width: 645px;
+}
+
+.contents .item {
+    flex: none;
+    margin: 20px;
+    text-align: center;
+}
+
+.contents img {
+    width: 240px;
+}
+
+.A{
+text-align:center;
+margin-top:100px;
+}
+
+.text1{
+display:inline-block;
+}
+
+.contents2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 150px auto;
+    width: 645px;
+}
+
+.contents2 .item2 {
+    flex: none;
+    margin: 20px;
+    text-align: center;
+}
+
+.contents2 img {
+    width: 240px;
+}
+
+.B{
+text-align:center;
+}
+
+.text2{
+display:inline-block;
+}
+
+img{
+
+height:180px;
+}
+
+body {
+font-family: 'Yu Gothic UI','メイリオ';
+}
+
+.contact{
+  background: #fff;
+  border: 2px solid #373737;
+  padding: 50px;
+  line-height: 1.8rem;
+  width:561px;
+  text-align: center;
+  margin:150px auto 0px auto;
+}
+
+.copyright{
+text-align: center;
+}

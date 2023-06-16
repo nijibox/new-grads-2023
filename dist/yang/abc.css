@@ -1,0 +1,241 @@
+
+<!ヘッダー作り>
+<!ヘッダー作り>
+<!ヘッダー作り>
+ @charset "UTF-8";
+html{
+    font-size:100%;/*ユーザー設定の文字サイズを正しく反映*/
+}
+*{
+	box-sizing:border-box;
+}
+body {
+  text-align:left;
+
+}
+.btn {
+  text-decoration: none;
+  background: #0bd;
+  padding: 14px 20px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+}
+
+header{
+   	width:100vw;
+	height:90px;
+	position:fixed;
+	z-index:100;
+	display:flex;
+	justify-content:space-between; /*メニューを右端に置く方法その１*/
+	padding:0 2%;
+	align-items:center;
+	background-color:
+	rgba(245,245,245,0.5);
+}
+.welcome{
+font-size:22px;
+ word-spacing: 10px;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+h1{
+font-size:30px;
+color:#920783;
+F;
+}
+.link{
+color:#920783;
+text-decoration: none;
+}
+.maillink{
+color:#920783;
+text-decoration: none;
+font-size:21px;
+}k
+b{
+color:#920783;
+
+}
+nav{
+    margin-left:auto; /*メニューを右端に置く方法その２*/
+}
+/*ホバーした際に色変わる*/
+a:hover{
+    opacity: 0.5;
+}
+/*home写真の設定*/
+/*home写真の設定*/
+/*home写真の設定*/
+
+.myhome {
+  position: relative;/*相対配置*/
+  }
+.myhome img {
+ width: 100%;
+  height: auto;  /* ←縦横比を維持する高さを自動計算 */
+}
+
+/*sabu写真の設定*/
+/*sabu写真の設定*/
+/*sabu写真の設定*/
+
+.zuiti img{
+ width: 100%;
+display: flex;
+flex-basis: 100%;
+}
+
+}
+.two{
+position: relative;
+}
+section{
+display:flex;
+
+}
+.zuiti{
+width:25%;
+margin-right:20px;
+}
+.zuiti:last-child{
+margin-right:0;
+}
+/*my life*/
+/*my life*/
+/*my life*/
+
+.rireki {
+display:flex; 
+  justify-content: center;
+  }
+.rireki img{
+ width: 70%;
+  height: auto;  /* ←縦横比を維持する高さを自動計算 */
+text-align: center;
+}
+
+h4{
+font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color:#920783;
+    text-align: center;
+margin-top
+
+:40px;
+}
+/*<h2>日中協働プロジェクト テーマ</h2>*/
+/*<h2>日中協働プロジェクト　テーマ</h2>*/
+/*<h2>日中協働プロジェクト　テーマ</h2>*/
+
+h2{
+font-family: 'Hiragino Kaku Gothic Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 1;
+text-align:center;
+margin:20px;
+}
+p{
+font-family: 'Hiragino Kaku Gothic Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 15px;
+padding:10px;
+}
+
+
+/*動画を挿入します*/
+/*動画を挿入します*/
+/*動画を挿入します*/
+
+.one{
+margin-right:30px;
+ display: flex;
+justify-content: space-around; /*flexアイテムの両側に均等な余白*/
+
+}
+.one:last-child{
+margin-right:0;
+}
+.kawai{
+ width: 100%;
+ background: orange;
+
+
+}
+/*my boom*/
+/*my boom*/
+/*my boom*/
+h3{
+font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+color:#920783;
+    text-align: center;
+    margin:40px;
+}
+
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+
+.insta_btn2{/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.insta_btn2:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+.insta_btn2 .fa-instagram{/*アイコン*/
+  font-size: 35px;/*アイコンサイズ*/
+  position: relative;
+  top: 4px;/*アイコン位置の微調整*/
+}
+
+.insta_btn2 span {/*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s
+}
+
+.insta_btn2:hover span{/*ホバーで一周回転*/
+  -webkit-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+h5{
+color:#920783;
+font-size:22px;
+    text-align: center;
+}

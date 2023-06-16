@@ -1,0 +1,446 @@
+/*枠デザイン*/
+body {
+  background: #D7F7F3; 
+  background-size: cover;
+  width: 100%;
+  display:flex;
+}
+.menubox {
+  position: fixed;
+  top: 1.5vw;
+  right: 1.1vw;
+  z-index: 1000;
+}
+.menu-btn {
+    display: flex;
+    height: 5vw;
+    width: 13vw;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn:hover {
+  transform: scale(1.1,1.1); 
+}
+.menu-btn span,
+.menu-btn span:after {
+    content: 'めにゅー';
+    color: #fff;
+    font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+    display: block;
+    height: 1.5vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    background-color: rgba(255, 255, 255, 0);
+    content: 'とじる';
+    color: #fff;
+    font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+    display: block;
+    height: 1.5vw;
+    width: 11vw;
+    font-size: 1.5vw;
+    position: absolute;
+}
+#menu-btn-check {
+    display: none;
+}
+.menu-content ul {
+    padding: 1vw 1vw 0px 36vw;
+    display: flex;
+}
+.menu-content ul li {
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+    color:#49D0FF;
+    font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+    text-decoration: none;
+    padding: 0.7vw 1.2vw 1vw 0;
+    position: relative;
+}
+.menu-content {
+    position: fixed;
+    top: 0;
+    left: 100%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+}
+.menu-content a:hover {
+    color: blue;
+}
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;/*メニューを画面内へ*/
+}
+
+h2 {
+  font-size: 3.3vw;
+  color: #FFF; 
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+   position: absolute;
+}
+/*ページトップ*/
+.topbox{
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+  height: 62.5vw;
+}
+.titleboad {
+  margin: 0px 0px 0px 3vw;
+  position: absolute;
+  width: 25vw;
+}
+.bluegazou {
+  margin: 1.5vw 0px 0px 25vw;
+  position: absolute;
+  width: 8vw;
+}
+.yousu {
+  margin: 2.6vw 0px 0px 25.8vw;
+  position: absolute;
+  font-size: 1.1vw;
+  color: #FFF;
+}
+.pagetitle {
+  font-size: 3.5vw;
+  color: #49D0FF; 
+  margin: 4.2vw 0px 0px 5vw;
+  position: absolute;
+}
+.click {
+  font-size: 1.6vw;
+  color: #FFF; 
+  margin: 15.2vw 0px 0px 38.5vw;
+  position: absolute;
+}
+.greensmall {
+  margin: 14vw 0px 0px 36.5vw;
+  position: absolute;
+  width: 39vw;
+}
+.doorgazou {
+  margin: 10vw 0px 0px 80vw;
+  position: absolute;
+  width: 18vw;
+}
+.doorgazou:hover {
+  transform: scale(1.1,1.1); 
+}
+.shukkinn {
+  font-size: 1.6vw;
+  color: #9B9B9B;
+  position: absolute;
+  margin: 21vw 0px 0px 85vw;
+  
+}
+.pageshift {
+  font-size: 1vw;
+  color: #9B9B9B; 
+  position: absolute;
+  margin: 23vw 0px 0px 84.5vw;
+}
+.swich {
+  margin: 15vw 0px 0px 4vw;
+  position: absolute;
+  width: 30vw;
+}
+.swich:hover {
+  transform: scale(1.1,1.1); 
+}
+.sleep {
+  margin: 15vw 0px 0px 34.5vw;
+  position: absolute;
+  width: 44vw;
+}
+.sleep:hover {
+  transform: scale(1.1,1.1); 
+}
+.table {
+  margin: 35vw 0px 0px 0px;
+  position: absolute;
+  width: 27vw;
+}
+.table:hover {
+  transform: scale(1.1,1.1); 
+}
+.sofa {
+  margin: 34vw 0px 0px 66.6vw;
+  position: absolute;
+  width: 30.5vw;
+}
+.sofa:hover {
+  transform: scale(1.1,1.1); 
+}
+
+/*プロフィール画面*/
+.profilebox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.5vw;
+  height: 62.5vw;
+}
+.midashi1{
+  margin: 56vw 0px 0px 1vw;
+  position: absolute;
+  width: 25vw;
+}
+.profile {
+  margin: 57vw 0px 0px 4vw;
+  position: absolute;
+}
+.nagi {
+  margin: 58vw 0px 0px 37vw;
+  position: absolute;
+  width: 37vw;
+}
+.hukidashi1 {
+  margin: 67vw 0px 0px 6vw;
+  position: absolute;
+  width: 31vw;
+}
+.myname {
+  margin: 70vw 0px 0px 11vw;
+  position: absolute;
+}
+.hukidashi2 {
+  margin: 67vw 0px 0px 60vw;
+  position: absolute;
+  width: 33vw;
+}
+.birthday {
+  margin: 68.5vw 0px 0px 67vw;
+  position: absolute;
+}
+.hukidashi3 {
+  margin: 90vw 0px 0px 7vw;
+  position: absolute;
+  width: 31vw;
+}
+.personalities {
+  margin: 92.4vw 0px 0px 9.2vw;
+  position: absolute;
+}
+.hukidashi4 {
+  margin: 87.5vw 0px 0px 57vw;
+  position: absolute;
+  width: 35vw;
+}
+.animal {
+  margin: 89.5vw 0px 0px 67vw;
+  position: absolute;
+}
+.slackicon1 {
+  margin: 102vw 0px 0px 3vw;
+  position: absolute;
+  width: 4vw;
+}
+.slackicon1:hover {
+  transform: scale(1.1,1.1); 
+}
+.slack1 {
+  font-size: 1.2vw;
+  color: #49D0FF; 
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+  margin: 106vw 0px 0px 1.2vw;
+  position: absolute;
+}
+.yazirushiue {
+  margin: 104vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue:hover {
+  transform: scale(1.1,1.1); 
+}
+/*趣味/特技画面*/
+.hobbybox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.5vw;
+}
+.midashi2 {
+  margin: 112vw 0px 0px 1vw;
+  position: absolute;
+  width: 25vw;
+}
+.hobbyandskill {
+  margin: 113.5vw 0px 0px 6vw;
+  position: absolute;
+}
+.hukidashi5 {
+  margin: 120vw 0px 0px 10vw;
+  position: absolute;
+  width: 50vw;
+}
+.skill {
+  margin: 122vw 0px 0px 17vw;
+  position: absolute;
+}
+.hukidashi6 {
+  margin: 140vw 0px 0px 10vw;
+  position: absolute;
+  width: 50vw;
+}
+.hobby {
+  margin: 142vw 0px 0px 17vw;
+  position: absolute;
+}
+.shelf {
+  margin: 122vw 0px 0px 61vw;
+  position: absolute;
+  width: 30vw;
+}
+.slackicon2 {
+  margin: 158vw 0px 0px 3vw;
+  position: absolute;
+  width: 4vw;
+}
+.slackicon2:hover {
+  transform: scale(1.1,1.1); 
+}
+.slack2 {
+  font-size: 1.2vw;
+  color: #49D0FF; 
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+  margin: 162vw 0px 0px 1.2vw;
+  position: absolute;
+}
+.yazirushiue2 {
+  margin: 161vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue2:hover {
+  transform: scale(1.1,1.1); 
+}
+
+/*すきなもの画面*/
+.likebox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.5vw;
+}
+.midashi3 {
+  margin: 167vw 0px 0px 1vw;
+  position: absolute;
+  width: 25vw;
+}
+.like {
+  margin: 168.5vw 0px 0px 6vw;
+  position: absolute;
+}
+.pomemoti {
+  margin: 177vw 0px 0px 13vw;
+  position: absolute;
+  width: 16vw;
+}
+.hukidashi7 {
+  margin: 178vw 0px 0px 34vw;
+  position: absolute;
+  width: 60vw;
+}
+.icecream {
+  margin: 180.5vw 0px 0px 45vw;
+  position: absolute;
+}
+.hukidashi8 {
+  transform: scale(-1, 1);
+  margin: 198vw 0px 0px 12vw;
+  position: absolute;
+  width: 60vw;
+}
+.rabbit {
+  margin: 201vw 0px 0px 22vw;
+  position: absolute;
+}
+.opanntyu {
+  margin: 201vw 0px 0px 73vw;
+  position: absolute;
+  width: 20vw;
+}
+.slackicon3 {
+  margin: 212vw 0px 0px 3vw;
+  position: absolute;
+  width: 4vw;
+}
+.slackicon3:hover {
+  transform: scale(1.1,1.1); 
+}
+.slack3 {
+  font-size: 1.2vw;
+  color: #49D0FF; 
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+  margin: 216vw 0px 0px 1.2vw;
+  position: absolute;
+}
+.yazirushiue3 {
+  margin: 215vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue3:hover {
+  transform: scale(1.1,1.1); 
+}
+
+/*おもいで*/
+.photobox {
+  font-family:HG丸ｺﾞｼｯｸM-PRO;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: tomato;
+}
+.midashi4 {
+  margin: 220vw 0px 0px 1vw;
+  position: absolute;
+  width: 25vw;
+}
+.memory {
+  margin: 221.5vw 0px 0px 6vw;
+  position: absolute;
+}
+.album {
+  margin: 228vw 0px 0px 22vw;
+  padding: 0px 0px 2vw 0px;
+  position: absolute;
+  width: 62vw;
+}
+.photo1 {
+  margin: 233vw 0px 0px 39.8vw;
+  position: absolute;
+}
+.photo2 {
+  margin: 251vw 0px 0px 24.5vw;
+  position: absolute;
+}
+.photo3 {
+  margin: 233vw 0px 0px 56vw;
+  position: absolute;
+}
+.photo4 {
+  margin: 251vw 0px 0px 67.7vw;
+  position: absolute;
+}
+.slackicon4 {
+  margin: 266vw 0px 0px 3vw;
+  position: absolute;
+  width: 4vw;
+}
+.slackicon4:hover {
+  transform: scale(1.1,1.1); 
+}
+.slack4 {
+  font-size: 1.2vw;
+  color: #49D0FF; 
+  font-family: HGS創英角ﾎﾟｯﾌﾟ体;
+  margin: 270vw 0px 0px 1.2vw;
+  position: absolute;
+  font-weight: 400;
+}
+.yazirushiue4 {
+  margin: 269vw 0px 0px 94.5vw;
+  position: absolute;
+  width: 3.5vw;
+}
+.yazirushiue4:hover {
+  transform: scale(1.1,1.1); 
+}

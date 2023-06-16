@@ -1,0 +1,414 @@
+body{
+margin: 0;
+}
+
+h1{
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+font-size:70px;
+}
+
+h2{
+position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+  font-size:30px;
+}
+
+h3{
+position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+  font-size:30px;
+}
+
+h4{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+  font-size:30px;
+}
+
+h5{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+  font-size:30px;
+}
+
+h6{
+position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+  font-size:30px;
+}
+
+ul{
+display: flex;
+align-items: center;
+justify-content: right;
+padding: 20px 20px;
+gap: 20px;
+color: white;;
+font-size: 16px;
+font-weight: 600;
+}
+
+li{
+list-style:none;
+}
+
+.header-nav ul li a {
+  position: relative;
+  color: white;
+  text-decoration-line: none;
+}
+
+.header-nav ul li a::after {
+
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  color:white;
+  bottom: -15px;
+  left: 0;
+  /*横方向0で非表示にする*/
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  /*中央を基点にアニメーション*/
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+  /*アニメーションの速度設定*/
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.header-nav ul li a:hover::after {
+  /*横方向等倍まで拡大*/
+  transform: scale(1, 1);
+}
+
+.profileFigure{
+width: 360px;
+height: 500px;
+position: fixed;
+top: 20%;
+left: 53%;
+opacity: 0.8;
+cursor: pointer;
+transition-duration: 0;
+}
+.ppp{
+width: 300px;
+height: 180px;
+position: relative;
+top: 30;
+left: 50%;
+}
+
+.rrr{
+width: 200px;
+height: 300px;
+position: relative;
+top: -15%;
+left: 80%;
+}
+
+.ooo{
+width: 230px;
+height: 300px;
+position: relative;
+top: -90;
+left: 55%;
+}
+
+.yyy{
+width: 230px;
+height: 300px;
+position: relative;
+top: 70;
+left: 10%;
+}
+
+.aaa{
+width: 230px;
+height: 300px;
+position: relative;
+top: 70;
+left: 0;
+}
+
+.bbb{
+width: 230px;
+height: 300px;
+position: relative;
+top: 70;
+left: -10%;
+}
+
+.ccc{
+width: 230px;
+height: 300px;
+position: relative;
+top: 70;
+left: 9%;
+}
+
+.ddd{
+width: 240px;
+height: 300px;
+position: relative;
+top: 70;
+left: 0%;
+}
+
+.eee{
+width: 220px;
+height: 300px;
+position: relative;
+top: 70;
+left: -10%;
+}
+.ttt{
+width: 700px;
+    height: 300px;
+ position: absolute;
+  top: 20%;
+  left: 23%;
+  transform: translateY(-50%) translateX(-50%);
+ animation: ttt 3s infinite ease-in-out .8s alternate;
+}
+
+@keyframes ttt{
+ 0% {
+    transform:translate(0, 0) rotate(-7deg);
+  }
+  50% {
+    transform:translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    transform:translate(0, 0) rotate(7deg);
+  }
+}
+ 
+.basicinformation{
+color: white;
+position: absolute;
+left: 14%;
+text-align:left;
+font-weight:bold;
+}
+
+img:hover{
+  filter: grayscale(0);
+  transition-duration: 0.5s;
+}
+
+/*========= スクロールをすると下のエリアが上にかぶさるCSS ===============*/
+
+#header{
+    /*headerを全画面で見せる*/
+  width:100%;
+  height: 100vh;
+  position: relative;
+background: linear-gradient(-225deg, #e4dc8a 20%, #409ecc 80%);
+}
+
+#header:before{
+    /*header の疑似要素に背景画像を指定*/
+  content:"";
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height: 100%;;
+  /*背景画像設定*/
+  background: no-repeat center;
+  background-size:cover;
+}
+
+/*下の被さるエリアの指定*/
+#container{
+  position: relative;
+  z-index:1;
+    /*以下はレイアウトのための記述*/
+  background:linear-gradient(-225deg, #409ecc 20%, #e4dc8a 80%);
+  padding:200px 0 50px;
+  text-align: center;
+ width:100%;
+  height: 100%vh;
+display: flex;
+flex-flow: column;
+justify-content: space-between;
+}
+
+#middle{
+ position: relative;
+  z-index:1;
+    /*以下はレイアウトのための記述*/
+  background:linear-gradient(-225deg, #e4dc8a 20%, #409ecc 80%);
+  padding: 150px 0 500px;
+  text-align: center;
+ width:100%;
+  height: 100%vh;
+display: flex;
+justify-content: space-between;
+}
+
+.middleinfo{
+color: white;
+position: absolute;
+left: 2%;
+right:2%;
+bottom: 10%;
+text-align: left;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+font-weight:bold;
+}
+
+#third{
+ position: relative;
+  z-index:1;
+    /*以下はレイアウトのための記述*/
+  background:linear-gradient(-225deg, #409ecc 20%, #e4dc8a 80%);
+  padding:150px 0 500px;
+  text-align: center;
+ width:100%;
+  height: 100%vh;
+display: flex;
+justify-content: space-between;
+}
+
+.thirdinfo{
+color: white;
+position: absolute;
+left: 2%;
+right:2%;
+bottom: 4%;
+text-align: left;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+font-weight:bold;
+}
+
+#production{
+position: relative;
+  z-index:1;
+    /*以下はレイアウトのための記述*/
+  background:linear-gradient(-225deg, #e4dc8a 20%, #409ecc 80%);
+  padding: 150px 0 700px;
+  text-align: center;
+ width:100%;
+  height: 100%vh;
+display: flex;
+flex-flow: column;
+justify-content: space-between;
+}
+
+.product{
+margin: 0;
+color: white;
+position: absolute;
+left: 43%;
+bottom: 12%;
+font-weight:bold;
+}
+.product a{
+color:white;
+font-size:20px;
+font-weight: bold;
+}
+
+.word{
+color:white;
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translateY(-50%) translateX(-50%);
+font-weight:bold;
+}
+#works{
+position: relative;
+  z-index:1;
+    /*以下はレイアウトのための記述*/
+  background:linear-gradient(-225deg, #409ecc 20%, #e4dc8a 80%);
+  padding: 130px 0 200px;
+  text-align: center;
+ width:100%;
+  height: 100%vh;
+display: flex;
+flex-flow: column;
+justify-content: space-between;
+}
+
+iframe{
+width:100%;
+height:100vh;
+padding-top:8%;
+}
+
+footer{
+color: white;
+position: absolute;
+left: 43%;
+bottom: 20px;
+}
+
+#page-top {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: white;
+    padding: 0 0 0 35px;
+    border-top: solid 1px;
+}
+#page-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 1px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+}

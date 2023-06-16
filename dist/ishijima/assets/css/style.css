@@ -1,0 +1,431 @@
+/*////////ÉwÉbÉ_Å[ /////////*/
+body{
+margin: 0;
+font-family: "Rounded Mplus 1c";
+}
+.header{
+    position:fixed;
+    width: 100%;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BFCBC4;
+    z-index:100;
+    margin: 0;
+}
+.logo {
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+     border: 3px solid #707070;
+          }
+.header__nav ul {
+    display: flex;
+}
+.header__nav ul li {
+    margin-left: 50px;
+    list-style: none;
+}
+.header__nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition:all 0.3s;
+}
+
+.header__nav ul li.current a,
+.header__nav ul li a:hover{
+  color:#fff; 
+}
+.slack_id{
+border-radius: 30px;
+     border: 1px solid #707070;
+    padding:5px;
+}
+
+.first-v {
+    background-image: url(../images/img/firstview.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+@media (max-width: 600px) {
+    .header__nav {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/*////////about me /////////*/
+
+.page2{
+margin: 5rem  0 ;
+}
+#Profile{
+font-weight: 600;
+font-size: 40px;
+padding: 4rem 0 4rem 8rem;
+ background-color:#F4F3F3;
+}
+.A{
+display:flex;
+}
+.main{
+padding:4rem 8rem 4rem 12rem;
+}
+.main h2{
+font-size: 30px;
+margin: 5rem 0 2rem 0 ;
+}
+.Aboutme_Item{
+    font-size: 15px;
+    width: 7.2rem;
+    margin: 0 2rem 0 0;
+    color: black;
+    font-weight: 500;
+    line-height: 3.2;
+    font-family: "Albert Sans", sans-serif;
+    letter-spacing: 0.025em;
+}
+.Aboutme_Desc{
+    font-size: 20px;
+    line-height: 2; 
+} 
+.Aboutme_row{ 
+margin: 0 0 0.4rem;
+display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.zennshin{
+width:30%;
+display:flex;
+padding:25px 0;
+}
+
+
+
+
+
+
+/*////////skills /////////*/
+
+.page3{
+margin: 5rem  0 ;
+}
+
+#Skills{
+font-weight: 600;
+font-size: 40px;
+padding: 4rem 0 4rem 8rem;
+ background-color:#F4F3F3;
+}
+
+.all h2{
+text-align:center;
+padding-bottom: 30px;
+padding-top: 30px;
+;
+}
+
+.plus{
+display: flex;
+justify-content: center;
+gap:24px;
+}
+
+
+.usually{
+display: flex;
+justify-content: center;
+gap:10px;
+}
+
+.skill{
+   padding:30px;
+   border: 1px solid lightgray;
+  width:30%;
+   justify-content: center;
+}
+
+.skill img{
+width:300px;
+}
+
+.skill p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    top:20px;
+}
+
+.can{
+    font-size: 16px;
+}
+
+
+
+
+/*////////Works /////////*/
+.page4{
+margin: 5rem  0 ;
+}
+
+#Works {
+font-weight: 600;
+font-size: 40px;
+padding: 4rem 0 4rem 8rem;
+ background-color:#F4F3F3;
+}
+
+.works1{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.kensyu{
+   padding:30px;
+}
+
+.workmain{
+width:300px;
+}
+
+.kensyu-title{
+    padding:25px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.kensyu-title a:hover{
+  color:green;
+} 
+.kensyu-content{
+    font-size: 16px;
+}
+
+.word{
+    color: #8a8986;
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 16px;
+}
+
+/*////////å§èC /////////*/
+.box{
+font-family: "Rounded Mplus 1c";
+}
+.header2{
+    width: 100%;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    z-index:100;
+    margin: 0;
+    background-color:#F4F3F3;
+
+}
+
+.header__nv ul {
+    display: flex;
+}
+.header__nv ul li {
+    margin-left: 50px;
+    list-style: none;
+}
+.header__nv ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition:all 0.3s;
+}
+
+.header__nv ul li.current a,
+.header__nv ul li a:hover{
+  color:green; 
+}
+
+.MEGA{
+display:flex;
+background-color:#F4F3F3;
+padding:0 0 30px 0;
+}
+.BIG{
+font-size:50px;
+width:50%;
+border-right: 1px solid #f2f2f0;
+padding:60px 0 0 100px;
+}
+.SMALL{
+text-align:left;
+padding:0 0 0 37px;
+}
+.houkoku h1 {
+font-size: 40px;
+ font-weight: bold;
+}
+
+.houkoku2 {
+  box-sizing: border-box;
+  margin:0 150px 0 300px;
+}
+
+.houkoku2 p {
+  line-height: 1.8;
+ font-weight: bold;
+}
+
+.houkoku2 h2 {
+  font-size: 35px;
+  margin: 0 0 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.houkoku2 dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.houkoku2 dl dt {
+  text-align: right;
+  width: 8.5em;
+  padding: 0.5em 1.0em 0.5em 0.5em;
+  position: relative;
+}
+
+
+.houkoku2 dl dd {
+  width: calc(100% - 8.5em);
+  padding: 0.5em 2.0em 3.0em;
+}
+
+.houkoku2  h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0 5px;
+ color:green;
+}
+.houkoku2 dl dd h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.houkoku2 ol li{
+font-size:15px;
+}
+
+.houkoku2 ul li{
+font-weight:bold;
+}
+.back{
+text-align: right;
+font-family: "Rounded Mplus 1c";
+padding:0 200px 100px 0;
+font-size:20px;
+font-color: black;
+}
+.back a:hover{
+  color:green; 
+}
+
+
+
+/*////////Likes /////////*/
+
+.page5{
+margin: 5rem  0 ;
+}
+#Likes {
+font-weight: 600;
+font-size: 40px;
+padding: 4rem 0 4rem 8rem;
+ background-color:#F4F3F3;
+}
+
+.likes {
+  display:flex;
+  }
+
+.like p {
+  color:black;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: bold;
+  }
+
+.like img {
+  width: 180px;
+  border-radius: 200px;
+  background-color: #000000;
+  }
+
+.info{
+  margin-top:10px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.page6{
+margin: 10rem  0 ;
+}
+
+#Gallery {
+font-weight: 600;
+font-size: 40px;
+padding: 4rem 0 4rem 8rem;
+ background-color:#F4F3F3;
+}
+
+.gallery{
+display:flex;
+justify-content: center;
+flex-wrap:wrap;
+gap:24px;
+}
+.img{
+width:400px;
+}
+.hsh{
+font-size:20px;
+font-weight:bold;
+}
+.last-v {
+    background-color:#F4F3F3;
+    height: 100vh;
+    width: 100%;
+    font-size:20px;
+    line-height: 2;
+    text-align: center;
+    padding-top:200px;
+}
+.last-v p{
+ font-family: "Rounded Mplus 1c";
+font-weight: 600;
+}
+
+footer{
+width: 100%;
+    border-top: 1px #000;
+    border-bottom: 1px solid #f2f2f0;
+    display: block;
+    bottom: 0;
+}
+

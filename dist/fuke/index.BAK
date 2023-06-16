@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header id="header">
+<nav>
+<ul class="gnav-navi-1">
+<li><a href="#jump1">ABOUT<br>福家律樹について</a></li>
+<li><a href="#experience">EXPERIENCE<br>これまでの経験</a></li>
+</ul>
+</nav>
+</header>
+
+
+<main>
+<div class="card-container">
+    <div class="card-img">
+        <a href="#"><img width="600" height="750" src="俺2.jpeg"></a>
+</div>
+    <div class="card-text">
+        <a><h2 id="jump1">ABOUT ME</h2></a>
+        <h1>福家律樹</h1>
+       <h2>座右の銘</h2>
+         <p>失敗したらガッツポーズ<br>by松岡修造氏</p>
+       <h2>ドラゴンボールの保有数</h2>
+         <p>3個</p>
+</div>
+</div>
+
+<section id="experience"><class="wrapper">
+  <h2 class="tittle">EXPERIENCE</h2>
+<ul style="list-style: none">
+<li><a href="#shodou"><img src="DG11.jpg"></a></li>
+<li><a href="#tennis"><img src="DG12.jpg"></a></li>
+<li><a href="#nijibox"><img src="DG13.jpg"></a></li>
+<li><img src="DG14.jpg"></li>
+<li><img src="DG14.jpg"></li>
+<li><img src="DG14.jpg"></li>
+<li><img src="DG14.jpg"></li>
+</ul>
+
+
+</section>
+
+<section id="shodou" class="wrapper">
+
+<div class="shodouimg">
+<img  width="500" height="600"  src="shodou.jpg">
+</div>
+
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">書道教室</span>
+</h2>
+<ul>
+<li>幼稚園時から中学時まで書道教室に通う</li>
+<li>右手で書くことに大苦戦する</li>
+<li>小・中学校で金賞を量産する</li>
+<li>書道6段</li>
+</ul>
+</div>
+</section>
+
+
+
+<section id="shodou2" class="wrapper">
+
+<div class="text">
+
+<ul>
+<li>集中が続かない</li>
+<li>友達と一緒じゃないと行きたくない</li>
+</ul>
+</div>
+
+<div class="triangle">
+</div>
+
+<div class="text2">
+<ul>
+<li>集中力が付き、忍耐強くなった</li>
+<li>1人でも通い、目標に向けて試行錯誤できるようになった</li>
+</ul>
+</div>
+
+</section>
+
+<section id="tennis" class="wrapper">
+<div class="tennisimg">
+<img  width="500" height="600"  src="tennis.jpeg">
+</div>
+
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">テニス</span>
+</h2>
+<ul>
+<li>小学生からテニスを始める</li>
+<li>中学から大学までテニス部に所属</li>
+<li>高校時代に通ったテニスクラブで<br>松岡修造氏から指導を受ける</li>
+<li>テニスコーチのアルバイトを経験<br>(約2年間)</li>
+</ul>
+</div>
+</section>
+
+
+
+<section id="tennis2" class="wrapper">
+<div class="text">
+<ul>
+<li>試合に負ける、コーチに怒られると泣く</li>
+<li>練習中は友達とおしゃべり</li>
+</ul>
+</div>
+
+<div class="triangle">
+</div>
+
+<div class="text2">
+<ul>
+<li>きつい練習でも弱音を吐かない、根性がついた</li>
+<li>頭を使って考えながら練習できるようになった</li>
+<li>幅広い年代の人と交流する経験を踏めた</li>
+</ul>
+</div>
+</section>
+
+
+<section id="nijibox" class="wrapper">
+<div class="nijiboximg">
+<img  width="500" height="400"  src="nijibox.jpg">
+</div>
+
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">ニジボックス入社</span>
+</h2>
+<ul>
+<a href="#nijibox2"><li>先輩インタビュー</li></a>
+<a href="#nijibox3"><li>F-BT研修</li></a>
+<a href="#nijibox4"><li>ディレクター研修</li></a>
+<a href="#nijibox5"><li>コーディング研修</li></a>
+</ul>
+</div>
+</section>
+
+
+<section id="nijibox2" class="wrapper">
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">先輩インタビュー</span>
+</h2>
+<ul>
+<li>どんな働き方？？</li>
+<li>仕事で意識していることは何だろう？？</li>
+</ul>
+</div>
+
+
+<div class="triangle">
+</div>
+
+<div class="text2">
+<ul>
+<li>他職種と関わることが多いため、相手基準での接し方</li>
+<li>担当領域を超えた染み出し</li>
+<li>失敗を失敗と思わない</li>
+</ul>
+</div>
+</section>
+
+
+<section id="nijibox3" class="wrapper">
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">F-BT研修</span>
+</h2>
+<ul>
+<li>信頼されるビジネスパーソンって??</li>
+<li>仕事で何を意識して、どんなスタンスで働く??</li>
+</ul>
+</div>
+
+<div class="triangle">
+</div>
+
+<div class="text2">
+<ul>
+<li>目的理解の重要性</li>
+<li>締め切りから逆算した時間管理</li>
+<li>報連相</li>
+</ul>
+</div>
+</section>
+
+
+<section id="nijibox4" class="wrapper">
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">ディレクター研修</span>
+</h2>
+<ul>
+<li>ディレクターって何するの?</li>
+<li>ヒューリスティック分析?UIUX分析?トレース?</li>
+</ul>
+</div>
+
+<div class="triangle">
+</div>
+
+<div class="text2">
+<ul>
+<li>制作進行～運用フェーズまで関わるポジション</li>
+<li>サイトの目的やターゲットから良い点、改善点を見つける</li>
+<li>認識がズレる可能性がある言葉を避ける</li>
+</ul>
+</div>
+</section>
+
+<section id="nijibox5" class="wrapper">
+<div class="text">
+<h2 class="section-tittle">
+<span class="en">コーディング研修</span>
+</h2>
+<ul>
+<li>ドメイン? キャッシュ? CSS? GAS?<br>
+知らない言葉ばかり、、、</li>
+<li>コーディングを全くしたことない、、</li>
+</ul>
+</div>
+
+<div class="triangle">
+</div>
+
+<div class="text2">
+<ul>
+<li>研修中に出てきた言葉を理解できるようになった</li>
+<li>先輩FEさんに教えていただき、コーディングしたものが<br>ブラウザで表示できた</li>
+<li>エンジニアさんの仕事の解像度が上がった</li>
+</ul>
+</div>
+
+<p>成果物 ▶<a href="https://nijibox.slack.com/archives/C05BZP907NF">天気BOT</a></p>
+</section>
+
+<section id="nijibox6" class="wrapper">
+<div class="text">
+<span class="en">お問い合わせ</span>
+
+<ul>
+<li><a href="https://nijibox.slack.com/archives/D050RL8LPNE">slack</a></li>
+</ul>
+</div>
+<p>Copyright © 2023 Ritsuki Fuke Inc. All Rights Reserved.</p>
+
+
+</main>
+</body>
+</html>

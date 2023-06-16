@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ayachang web</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="top.css" />
+  </head>
+<body>
+    <header class="header">
+      <!-- ヘッダーロゴ -->
+      <div class="logo">LOGO</div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+    
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+        <!-- メニュー -->
+        <form class="content">
+          <div class="list">
+            <button onclick="location.href='#'" class="btn_item">Top</a></button>
+	    <button onclick="location.href='#'" class="btn_item">Profile</a></button>
+	    <button onclick="location.href='#'" class="btn_item">Work</a></button>
+	    <button onclick="location.href='#'" class="btn_item">Face's</a></button>
+	    <button onclick="location.href='#'" class="btn_item">Camera Roll</a></button>
+          </div>
+	  <div class="contact">
+	    <img class="slack_icon1" alt="" src="Slack_icon.png" >
+            <img class="slack_icon2" alt="" src="ayakaicon.jpg" >
+            <p class="slack_id"><a href="https://nijibox.slack.com/archives/D050U4FMU8L">Ayaka Ichiyanagi</a></p>
+	    <img class="gmail_icon" alt="" src="unnamed.png" >
+            <p class="gmail_id">ayaka.ichiyanagi@nijibox.co.jp</p>
+	  </div>
+	</form>
+      </div
+    </header>
+
+        <!-- メニュー -->
+	<main>
+	 <div class="main-top">
+	   <img class="main-top-img" alt="" src="ichiyanagiayaka_004.jpeg">
+	 </div>
+	</main>
+</body>
+</html>

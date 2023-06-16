@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  font-family: 'Noto Sans JP', sans-serif;
+  background:#f6f5f4;
+}
+header {
+  width: 100%;
+  height: 40px;
+  background:#f6f5f4;
+  display: flex; /* flexboxを作る */
+  align-items: center; /* 上下中央に揃える */
+  justify-content: space-between; /* 両端に配置 */
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  z-index:100;
+}
+h1 a {
+  color: #1a1a1a;
+  font-size: 30px;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li a {
+  padding: 10px 15px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.toppage {
+ display: flex;
+ align-items:center;
+ 
+}
+
+.topimage{
+margin-left: auto;
+width:70%
+}
+
+.title{
+margin:0 auto;
+}
+
+
+a{
+  height: 205px;
+  width: 288px;
+  outline: none;
+  cursor: pointer;
+  border:0px;
+  padding:0px;
+}
+
+img{
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+
+.contact{
+  background: #fff;
+  border: 2px solid #373737;
+  padding: 50px;
+  line-height: 1.8rem;
+  width:561px;
+  text-align: center;
+  margin:150px auto 0px auto;
+}
+
+
+.shirubutton{
+ width:948px;
+ margin:20px auto 0;
+ display:flex;
+ justify-content:center;
+ gap:24px;
+ flex-wrap:wrap;
+}
+
+.button{
+ position:relative;
+}
+
+.buttontext{
+ margin:0;
+ position:absolute;
+ top:0;
+ color:#000;
+ font-size:17px;
+ opacity:0;
+ width:300px;
+ height:200px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ background:rgba(255,255,255,0.5);
+}
+
+.A{
+width:300px;
+height:200px;
+}
+
+.button:hover .buttontext{
+ opacity:1;
+}
+
+
+.toppage{
+margin-bottom:200px;
+}
+
+body {
+font-family: 'Yu Gothic UI','メイリオ';
+}
+
+
+.copyright{
+text-align: center;
+}
+
+
+.title{
+color: transparent;
+-webkit-text-stroke: 0.03em rgba(0,0,0,1);
+font-size:25px;
+white-space: nowrap;
+overflow: hidden;
+animation: flowing-anim 3s forwards linear;
+}
+@keyframes flowing-anim {
+ 0%{
+	 width: 0%;
+   }
+100%{
+	 width: 20%;
+   }
+}

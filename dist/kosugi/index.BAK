@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小杉凪のプライベート紹介</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="menubox">
+    <div class="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn">
+        <img class="menu" alt="" src="./assets/images/menu.png" /><span></span></label>
+         <!--ここからメニュー-->
+        <div class="menu-content">
+            <ul>
+                <li><a href="#zero">トップ</a></li>
+                <li><a href="#second">プロフィール</a></li>
+                <li><a href="#first">趣味/特技</a></li>
+                <li><a href="#forth">すきなもの</a></li>
+                <li><a href="#third">おもいで</a></li>
+                <li><a href="file:///C:/Users/01055533/Desktop/profile/profile/index2.html"><span class=”underline_color”>次のページ</span></a></li>
+            </ul>
+        </div>
+        <!--ここまでメニュー-->
+    </div>
+    </header>
+    <div class="topbox">
+        <img class="titleboad" id="zero" alt="" src="./assets/images/titleboad.png" />
+      <h1 class="pagetitle">こすぎなぎの<br>ほーむぺーじ</h1>
+        <p class="yousu">ぷらいべーと</p>
+        <img class="greensmall" alt="" src="./assets/images/greensmall.png" />
+      <h3 class="click">私のことが知りたかったらイラストをクリック！</h3>
+        <a href="file:///C:/Users/01055533/Desktop/profile/profile/index2.html">
+        <img class="doorgazou" alt="" src="./assets/images/door.png" ;>
+        </a>
+      <p class="shukkinn">出勤しよう</p>
+      <p class="pageshift">※次ページに移るよ</p>
+      <a href="#first">
+          <img class="swich" alt="" src="./assets/images/swich.png" ;></a>
+      <a href="#second">
+        <img class="sleep" alt="" src="./assets/images/sleep.png" /></a>
+      <a href="#third">
+        <img class="table" alt="" src="./assets/images/table.png" /></a>
+      <a href="#forth">
+        <img class="sofa" alt="" src="./assets/images/sofa.png" /></a>
+    </div>
+
+     <div class="profilebox">
+        <img class="midashi1" id="second" alt="" src="./assets/images/midashi.png" />
+      <h2 class="profile">プロフィール</h2>
+        <img class="nagi" alt="" src="./assets/images/nagi.png" />
+        <img class="hukidashi1" alt="" src="./assets/images/yellow1.png" />
+      <p class="myname">小杉凪（こすぎなぎ）<br><br>
+                        祖父が漁師だったので<br>
+                        海が穏やかに凪になるよう<br>
+                        名づけられたよ</p>
+        <img class="hukidashi2" alt="" src="./assets/images/yellow2.png" />
+      <p class="birthday">2000年4月3日生まれ<br><br>
+                          千葉県出身<br>
+                          （チーバくんの足のほう）<br><br>
+                          血液型はA型<br>
+                          変なところで几帳面だよ</p>
+        <img class="hukidashi3" alt="" src="./assets/images/yellow3.png" />
+      <p class="personalities">16personalities→指揮官<br>
+                               （ニジボックスにはあまりいない…？）</p>
+        <img class="hukidashi4" alt="" src="./assets/images/yellow4.png" />
+      <p class="animal">自分を動物に例えると<br>
+                        →コアラ<br><br>
+                        休みの日は12時間睡眠<br>
+                        するくらい寝るの大好き<br>
+                        インドア人間！</p>
+      <a href="https://join.slack.com/share/enQtNTQyNzEzOTkxOTc0NS1kZTdhMDgwMTIzN2I3NmMxYzYxMTY1YWI4ODBiNDFkOTQ2YjU1YTRlMWY2OWQ5ZGU4YjliZjM3Yjk2ZjcxMWZl">
+        <img class="slackicon1" alt="" src="./assets/images/Slack_icon_2019.svg.png" /></a>
+      <p class="slack1">times_nagiを覗く</p>
+      <a href="#zero">
+      <img class="yazirushiue" alt="" src="./assets/images/yazirushiue.png" /></a>
+    </div>
+
+     <div class="hobbybox">
+        <img class="midashi2" id="first" alt="" src="./assets/images/midashi.png" />
+      <h2 class="hobbyandskill">趣味/特技</h2>
+        <img class="hukidashi5" alt="" src="./assets/images/greenbig.png" />
+      <p class="skill">特技→楽器演奏<br><br>
+                       中学時代に吹奏楽部、大学時代に<br>
+                       軽音サークルに入ってたよ！<br>
+                       フルートとギターができるよ！<br>
+                      （今もできるかは怪しい）<br>
+                       最近アコースティックギターを買おうか検討中</p>
+        <img class="hukidashi6" alt="" src="./assets/images/greenbig.png" />
+      <p class="hobby">趣味→マンガとゲーム<br><br>
+                       休みの日は一日中家でマンガを読んだり<br>
+                       ゲームをしているよ！引きこもりだね！<br>
+                       マンガは電子も紙も両方読むよ！<br>
+                       絵柄を見て紙で読みたいと感じるかが判断基準<br>
+                       ゲームは主にSwichとPCでやっているよ</p>
+        <img class="shelf" alt="" src="./assets/images/shelf.png" />
+       <a href="https://join.slack.com/share/enQtNTQyNzEzOTkxOTc0NS1kZTdhMDgwMTIzN2I3NmMxYzYxMTY1YWI4ODBiNDFkOTQ2YjU1YTRlMWY2OWQ5ZGU4YjliZjM3Yjk2ZjcxMWZl">
+        <img class="slackicon2" alt="" src="./assets/images/Slack_icon_2019.svg.png" /></a>
+      <p class="slack2">times_nagiを覗く</p>
+       <a href="#zero">
+      <img class="yazirushiue2" alt="" src="./assets/images/yazirushiue.png" /></a>
+    </div>
+
+    <div class="likebox">
+        <img class="midashi3" id="forth" alt="" src="./assets/images/midashi.png" />
+      <h2 class="like">すきなもの</h2>
+        <img class="pomemoti" alt="" src="./assets/images/pomemoti.png" />
+        <img class="hukidashi7" alt="" src="./assets/images/pink.png" />
+      <p class="icecream">♡アイス♡<br><br>
+                          新作のアイスが出たら大体買ってるよ！買いすぎて<br>
+                          家の冷凍庫がアイスだらけになっている。<br>
+                          ただしバニラアイスはそれほど好きじゃない<br>
+                          写真はポメラニアンもちのクリームソーダだよ</p>
+        <img class="hukidashi8" alt="" src="./assets/images/pink.png" />
+      <p class="rabbit">♡おぱんちゅうさぎ♡<br><br>
+                        かわいい？見た目と哀愁のあるキャラクター性の<br>
+                        ギャップがいいね！<br>
+                        7000円くらいのぬいぐるみを持ってるよ！<br>
+                        写真はおぱんちゅうさぎ展にいったときのものだよ</p>
+        <img class="opanntyu" alt="" src="./assets/images/opanntyu.png" />
+      <a href="https://join.slack.com/share/enQtNTQyNzEzOTkxOTc0NS1kZTdhMDgwMTIzN2I3NmMxYzYxMTY1YWI4ODBiNDFkOTQ2YjU1YTRlMWY2OWQ5ZGU4YjliZjM3Yjk2ZjcxMWZl">
+        <img class="slackicon3" alt="" src="./assets/images/Slack_icon_2019.svg.png" /></a>
+      <p class="slack3">times_nagiを覗く</p>
+       <a href="#zero">
+      <img class="yazirushiue3" alt="" src="./assets/images/yazirushiue.png" /></a>
+    </div>
+
+    <div class="photobox">
+        <img class="midashi4" id="third" alt="" src="./assets/images/midashi.png" />
+      <h2 class="memory">おもいで</h2>
+        <img class="album" alt="" src="./assets/images/album.png" />
+      <p class="photo1">＃愛知旅行<br>＃ジブリパーク<br>＃千と千尋の神隠し<br>＃カオナシ<br><br>
+                        ＃好きなジブリ作品は<br>
+                        ＃天空の城ラピュタ</p>
+      <p class="photo2">＃海外旅行<br>＃台湾<br>＃ランタン飛ばし<br>＃故宮博物館<br>＃食べ物もおいしい<br><br>
+                        ＃おすすめの旅行先<br>＃知りたい</p>
+      <p class="photo3">＃ディズニーシー<br>＃雨女<br>＃珍しく晴れた日<br>#でも寒かった<br><br>＃オズワルド<br>＃カチューシャ</p>
+      <p class="photo4">＃箱根旅行<br>＃ガラスの森美術館<br>＃実はこのお花<br>＃ガラスで作られてる<br><br>
+                        ＃過去に行った美術館で<br>＃一番好きかも</p>
+      <a href="https://join.slack.com/share/enQtNTQyNzEzOTkxOTc0NS1kZTdhMDgwMTIzN2I3NmMxYzYxMTY1YWI4ODBiNDFkOTQ2YjU1YTRlMWY2OWQ5ZGU4YjliZjM3Yjk2ZjcxMWZl">
+        <img class="slackicon4" alt="" src="./assets/images/Slack_icon_2019.svg.png" /></a>
+      <p class="slack4">times_nagiを覗く</p>
+       <a href="#zero">
+      <img class="yazirushiue4" alt="" src="./assets/images/yazirushiue.png" /></a>
+    </div>
+
+  </body>
+</html>
